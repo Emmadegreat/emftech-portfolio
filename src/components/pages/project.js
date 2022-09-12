@@ -14,19 +14,95 @@ const Project = () => {
           <h1>
               My Projects <span>.</span>
           </h1>
-        <section className="project-1" id="project-1">
-          <div className="project-box">
-            <img src={ tcc} alt="tcc-website" />
+        <section className="project-1" id="tcc">
+          <div className="card" id='tcc-img-card'>
+          <img src={tcc} alt="tcc-website" />
           </div>
-        <div className="project-box" id='project-box2'>
-          <h2>01</h2>
-          <h3>TCC website</h3>
-          <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo at quam, dignissimos incidunt omnis et recusandae vero consectetur consequuntur cumque sint eum quaerat soluta ad dolore ea molestiae veniam. A!
-          </p>
-          <a href="https://tcc-work.herokuapp.com/index.html" target={'_blank'}>view site &#8663;</a>
-        </div>
-      </section>
+          <div className="card" id='tcc-description'>
+            <h2>01</h2>
+            <h3>TCC website</h3>
+            <p>
+              TCC is a civil engineering construction company. This site enables
+              the company to showcase their competency and easily connect with
+              clients.
+            </p>
+            <a href="https://tcc-work.herokuapp.com/index.html" target={'_blank'}>view site &#8663;</a>
+          </div>
+        </section>
+      
+        <section className="project-2" id="eesa">
+          <div className="card" id='eesa-img-card'>
+            <img src={ eesa } alt="eesa-website" />
+          </div>
+          <div className="card" id='eesa-description'>
+            <h2>02</h2>
+            <h3>EESA</h3>
+            <p>
+              Web application developed for final year students of Electrical
+              Engineering Unizik, Awka. The web application helps the students
+              to submit their project to their supervisors online.
+            </p>
+            <a href="https://www.eesa5nalists.com.ng/" target={'_blank'}>view site &#8663;</a>
+          </div>
+        </section>
+
+        <section className="project-1" id="tcc">
+          <div className="card" id='tcc-img-card'>
+            <img src={st_anthony} alt="tcc-website" />
+          </div>
+          <div className="card" id='tcc-description'>
+            <h2>03</h2>
+            <h3>St. Anthony Parish</h3>
+            <p>
+              A church website developed for St. Anthony catholic church, AIT road
+              Alagbado Lagos state. Need more info about St. Anthony Alagbado, visit 
+              their website.
+            </p>
+            <a href="https://emmadegreat.github.io/st-anthony-site/" target={'_blank'}>view site &#8663;</a>
+          </div>
+        </section>
+
+        <section className="project-2" id="eesa">
+          <div className="card" id='eesa-img-card'>
+            <img src={ zuri } alt="eesa-website" />
+          </div>
+          <div className="card" id='eesa-description'>
+            <h2>04</h2>
+            <h3>Zuri website</h3>
+            <p>
+              Final project/task done at I4GxZuri 2022 training,
+              for frentend developers.  
+            </p>
+            <a href="https://emmadegreat.github.io/zuri-website-task/" target={'_blank'}>view site &#8663;</a>
+          </div>
+        </section>
+        <section className="project-1" id="tcc">
+          <div className="card" id='tcc-img-card'>
+            <img src={login} alt="tcc-website" />
+          </div>
+          <div className="card" id='tcc-description'>
+            <h2>05</h2>
+            <h3>Network admin page</h3>
+            <p>
+              Network admin login/log out pages that enables the
+              admin to have access to the backend.
+            </p>
+            <a href="https://emmadegreat.github.io/network-admin-login-page/" target={'_blank'}>view site &#8663;</a>
+          </div>
+        </section>
+        <section className="project-2" id="eesa">
+          <div className="card" id='eesa-img-card'>
+            <img src={ calc } alt="eesa-website" />
+          </div>
+          <div className="card" id='eesa-description'>
+            <h2>06</h2>
+            <h3>Simple calculator</h3>
+            <p>
+              A simple JS calculator application that performs basic arithmetic operations. 
+            </p>
+            <a href="https://emmadegreat.github.io/Js__cal__app/" target={'_blank'}>view site &#8663;</a>
+          </div>
+        </section>
       
       </section>
   )
