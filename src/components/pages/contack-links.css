@@ -1,0 +1,75 @@
+.contact-links{
+    background-color: rgb(41, 39, 39);
+    padding: 5rem 1.5rem;
+}
+.logo-1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.logo-1 img{
+    max-width: 130px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0.2rem;
+}
+.logo-1 span{
+    color: rgb(119, 178, 220);
+}
+.links{
+    padding: 3rem 10rem 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.links .social-links{
+    display: flex;
+    list-style-type: none;
+}
+.links .social-links li{
+    display: inline;
+    list-style-type: none;
+    margin: 0rem 1rem;
+}
+.links .social-links li a{ 
+    display: inline;
+    text-decoration: none;
+    margin: 0rem 0.2rem;
+    font-size: 2rem;
+    color: rgb(119, 178, 220);
+    text-transform: capitalize;
+}
+.links .social-links li a:hover{ 
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+
+.bottom-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.bottom-menu ul li{
+    display: inline;
+    list-style-type: none;
+    margin: 0rem 1rem;
+}
+.bottom-menu ul li a{ 
+    display: inline;
+    text-decoration: none;
+    margin: 0rem 0.2rem;
+    color: #fdf3f2;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    
+}
+.bottom-menu ul li a:hover{ 
+    color: rgb(119, 178, 220);
+}
+@media screen {
+    
+}

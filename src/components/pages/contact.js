@@ -5,11 +5,15 @@ import React from 'react'
 const Contact = () => {
   
   return (
-      <>
-          <div className="contact" id="contact">
-        <h1>contact us here, you hear!</h1>
-        <p> Lorem ipsum dolor sit amet cuisquam obcaecati aliquid illo.</p>
-      </div>
+    <>
+      <section className="contact" id="contact">
+        <div className="contact-card" id="contact-card">
+          <p>Have a project you want </p>
+          <p>me to bring to live?</p>
+          <button className='contact-button'>send me a mail &#8663;</button>
+        </div>
+      </section>
+      
       
       
     </>

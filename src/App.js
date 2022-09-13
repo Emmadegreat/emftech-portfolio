@@ -2,6 +2,7 @@ import './index.css'
 
 import About from './components/pages/about'
 import Contact from './components/pages/contact'
+import ContactLinks from './components/pages/contact-links'
 import Footer from './components/pages/footer'
 import Navigation from './components/pages/navigation'
 import Project from './components/pages/project'
@@ -17,6 +18,7 @@ const App = () => {
         <Skill />
         <Project/>
         <Contact />
+        <ContactLinks />
       </div>
       <Footer year= {new Date().getFullYear()} />
           
