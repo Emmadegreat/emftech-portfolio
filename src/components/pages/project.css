@@ -169,3 +169,33 @@
     }
     
 }
+
+/*===============toggle-button==============*/
+.toggle{
+    transition: all 0.3s ease-in-out;
+}
+.see-more{
+    text-align: center;
+    align-items: center;
+}
+.see-more .toggle-button{
+    width: 260px;
+    height: 80px;
+    margin: 4rem 0rem;
+    padding: 1.3rem;
+    background: rgb(119, 178, 220);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.see-more .toggle-button:hover{
+    background: #fff;
+    color: rgb(41, 39, 39);
+}
+@media screen and (max-width:400px){
+    .see-more .toggle-button{
+        width: 230px;
+    }
+}
