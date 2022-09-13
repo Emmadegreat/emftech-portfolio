@@ -23,8 +23,8 @@ const ContactLinks = () => {
                         <li><a href="https://github.com/Emmadegreat/" target="_blank">{ <FaGithubSquare/> }</a></li>
                     </ul>
 
-                    <BrowserRouter >
-                        <div className="bottom-menu">
+                   <BrowserRouter>
+                        <div className='bottom-menu'>
                             <ul>
                                 <li>
                                     <HashLink

@@ -4,12 +4,13 @@ import React from 'react'
 
 const Footer = (props) => {
   return (
-        <footer className="footer">
-          <p>All right reserved. {props.year}</p>
+    <footer className="footer">
+      <span>{props.text}  </span>
+      <span>{props.year }</span>
           
-      </footer>
+    </footer>
       
-    )
+  )
     
 }
 

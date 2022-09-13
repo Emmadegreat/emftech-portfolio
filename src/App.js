@@ -20,7 +20,11 @@ const App = () => {
         <Contact />
         <ContactLinks />
       </div>
-      <Footer year= {new Date().getFullYear()} />
+      <Footer
+        text="&copy; All rights reserved  &nbsp; EMF  &nbsp;"
+        year={ new Date().getFullYear()}
+       
+      />
           
       
     </div>

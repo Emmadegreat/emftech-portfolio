@@ -10,10 +10,9 @@
     color: #fff;
 }
 .about-box{
- flex-basis: 44%;
- padding: 2rem;
- border: 1px solid yellow;
- text-align:justify;
+    flex-basis: 44%;
+    padding: 2rem;
+    text-align:justify;
 }
 #pix-box{
     display: flex;
