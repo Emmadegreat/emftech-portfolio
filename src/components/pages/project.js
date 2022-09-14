@@ -3,6 +3,7 @@ import './project.css'
 import { FaArrowDown } from 'react-icons/fa'
 import React from 'react'
 import calc from '../images/calculator-app.PNG'
+import { click } from '@testing-library/user-event/dist/click'
 import eesa from '../images/eesa.PNG'
 import login from '../images/network-admin-login.PNG'
 import st_anthony from '../images/st-anthony.PNG'
@@ -13,8 +14,10 @@ import zuri from '../images/zuri-final-project-task.PNG'
 const Project = () => {
 
   const [toggle, setToggle] = useState(false);
-  
+  const [click, setClick] = useState(false);
+    
   const SeeMore = () => setToggle(!toggle);
+  const Close =()=>setClick(!click)
 
 
   return (
@@ -69,8 +72,8 @@ const Project = () => {
             <a href="https://emmadegreat.github.io/st-anthony-site/" target={'_blank'}>view site &#8663;</a>
           </div>
         </section>
-        <div className='see-more'>{/* toggle button*/}
-          <button className='toggle-button' onClick={SeeMore}>See more  < FaArrowDown/></button>
+        <div className='see-more' onClick={Close}>{/*========= toggle button=========*/}
+          <button className='toggle-button' onClick={SeeMore}>{click? "see less":"see more" }</button>
         </div>
       {toggle &&
         
