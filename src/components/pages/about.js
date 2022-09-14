@@ -17,7 +17,7 @@ const About = () => {
           <div className="about-box" id='name'>
             <h1>Emmanuel Mkpurunchi</h1>
             <p>
-              I am an freelancer frontend web developer, with expertise in developing designs
+              I am a freelancer frontend web developer, with expertise in developing designs
               into fully functionl websites. I have one and half a year working experience in frontend
               web developemt with the latest web technologies, like React Js, Bootstrap5 and so on.
               I also build your web application to mobile responsive.
