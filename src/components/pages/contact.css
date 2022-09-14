@@ -26,11 +26,11 @@
 }
 .contact-button{
     height: 60px;
-    width: 280px;
-    padding: 0.8rem;
+    width: 210px;
+    padding: 0.5rem;
     text-align: center;
     border-radius: 0.6rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     border-width: 0rem;
 }
 .contact-button:hover{
@@ -46,12 +46,13 @@
         text-align: justify;
     }
     .contact-button{
-        width: 240px;
+        width: 200px;
+        font-size: 1.2rem;
     }
 }
 @media screen and (max-width:496px){
     .contact-card{
-        padding: 3rem 1.8rem;
+        padding: 3rem 1.6rem;
     }
     .contact-card p{
         font-weight: 600;
@@ -59,7 +60,7 @@
         text-align: justify;
     }
     .contact-button{
-        width: 240px;
+        width: 180px;
     }
 }
 /*==========email-modal=============*/

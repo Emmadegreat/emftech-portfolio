@@ -41,10 +41,10 @@
 }
 #name .hire-button{
     margin: 2.5rem 0rem;
-    padding: 1rem;
+    padding: 0.6rem;
     border-radius: 1rem;
-    width: 210px;
-    height: 70px;
+    width: 170px;
+    height: 50px;
     text-align: center;
     border-width: 0rem  ;
     font-size: 1.4rem;
