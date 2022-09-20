@@ -22,7 +22,7 @@ const About = () => {
               web developemt with the latest web technologies, like React Js, Bootstrap5 and so on.
               I also build your web application to mobile responsive.
             </p>
-            <button className='hire-button' id='hire-button' onClick={Toggle}>Hire me &#8663;</button>
+            <button className='hire-button' id='hire-button' onClick={Toggle}><a href="http://" target="_blank" rel="noopener noreferrer"></a> Hire me &#8663;</button>
           </div>
           <div className="about-box" id='pix-box'>
             <img src={emf} alt="profile-pix" className='profile-pix' />
