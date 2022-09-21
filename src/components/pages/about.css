@@ -57,6 +57,13 @@
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+#name .hire-button a{
+    color: rgb(41, 39, 39);
+    text-decoration: none;
+}
+#name .hire-button a:hover{
+    color: #fff;
+}
 @media screen and (max-width:880px){
     .profile-pix{
         width: 300px;
@@ -74,6 +81,12 @@
     .about-container{
         display: flex;
         flex-direction: column;
+    }
+    #pix-box{
+        order: 1;
+    }
+    #name{
+        order: 2;
     }
 }
 @media screen and (max-width:500px){

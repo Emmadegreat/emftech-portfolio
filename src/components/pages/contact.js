@@ -17,7 +17,7 @@ const Contact = () => {
         {toggleForm &&
           <div className='email-modal' id='email-modal'>
           <div className="email-content" id='email-content'>
-            <form action="">
+            <form action="https://formsubmit.co/emf0046@gmail.com" method='post'>
               <table>
                 <tr>
                   <td><label htmlFor="name">Name</label></td>
@@ -25,11 +25,14 @@ const Contact = () => {
                 </tr>
                 <tr>
                   <td><label htmlFor="email">Email</label></td>
-                  <td><input type="email" name='email' required/></td>
+                  <td><input type="email" name='email' required /></td>
+                  <td><input type="hidden" name="_next" value="https://my-app-ruby-theta.vercel.app/" /></td>
+                  <td><input type="hidden" name="_template" value="table" /></td>  
                 </tr>
                 <tr>
                   <td><label htmlFor="phone-number">Phone Number</label></td>
-                  <td><input type="number" name='phone-number' required/></td>
+                  <td><input type="number" name='phone-number' required /></td>
+                  <td><input type="hidden" name="_autoresponse"value={'Thank you for contacting us, we will get back to you as soon as possible.'} /></td>
                 </tr>
                 <tr>
                   <td><label htmlFor="message">Messge</label></td>
