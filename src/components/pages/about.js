@@ -1,10 +1,18 @@
 import './about.css'
+import "aos/dist/aos.css"
 
 import React, {useState} from 'react'
 
+import Aos from 'aos'
 import emf from '../images/my-profile-pix.jpg'
+import { useEffect } from 'react'
 
 const About = () => {
+  
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh({duration:2000,once:false});
+  }, [])
 
   const [click, setClick] = useState(false);
   const Toggle = () => setClick(!click);
@@ -14,7 +22,7 @@ const About = () => {
     <>
       <section className="about" id='about'>
         <div className="about-container">
-          <div className="about-box" id='name'>
+          <div className="about-box" id='name' data-aos="flip-right">
             <h1>Emmanuel Mkpurunchi</h1>
             <p>
               I am a freelancer frontend web developer, with expertise in developing designs
@@ -24,7 +32,7 @@ const About = () => {
             </p>
             <button className='hire-button' id='hire-button' onClick={Toggle}><a href="https://wa.me/23407034534697" target="_blank">Hire me &#8663;</a> </button>
           </div>
-          <div className="about-box" id='pix-box'>
+          <div className="about-box" id='pix-box' data-aos="flip-left">
             <img src={emf} alt="profile-pix" className='profile-pix' />
           </div>
           

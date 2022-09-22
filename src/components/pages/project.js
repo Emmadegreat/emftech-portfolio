@@ -1,5 +1,9 @@
 import './project.css'
+import "aos/dist/aos.css"
 
+import { useEffect, useState } from 'react'
+
+import Aos from 'aos'
 import { FaArrowDown } from 'react-icons/fa'
 import React from 'react'
 import calc from '../images/calculator-app.PNG'
@@ -8,10 +12,12 @@ import eesa from '../images/eesa.PNG'
 import login from '../images/network-admin-login.PNG'
 import st_anthony from '../images/st-anthony.PNG'
 import tcc from '../images/tcc.PNG'
-import { useState } from 'react'
 import zuri from '../images/zuri-final-project-task.PNG'
 
 const Project = () => {
+  useEffect(() => {
+    Aos.init({duration:2000,once:false});
+  }, [])
 
   const [toggle, setToggle] = useState(false);
   const [click, setClick] = useState(false);
@@ -25,11 +31,11 @@ const Project = () => {
           <h1>
               My Projects <span>.</span>
           </h1>
-        <section className="project-1" id="tcc">
+        <section className="project-1" id="tcc" data-aos="flip-left">
           <div className="card" id='tcc-img-card'>
-          <img src={tcc} alt="tcc-website" />
+            <img src={tcc} alt="tcc-website" />
           </div>
-          <div className="card" id='tcc-description'>
+          <div className="card" id='tcc-description' data-aos="flip-left">
             <h2>01</h2>
             <h3>TCC website</h3>
             <p>
@@ -41,11 +47,11 @@ const Project = () => {
           </div>
         </section>
       
-        <section className="project-2" id="eesa">
+        <section className="project-2" id="eesa" data-aos="flip-right">
           <div className="card" id='eesa-img-card'>
             <img src={ eesa } alt="eesa-website" />
           </div>
-          <div className="card" id='eesa-description'>
+          <div className="card" id='eesa-description' data-aos="flip-right">
             <h2>02</h2>
             <h3>EESA</h3>
             <p>
@@ -57,11 +63,11 @@ const Project = () => {
           </div>
         </section>
 
-        <section className="project-1" id="tcc">
+        <section className="project-1" id="tcc" data-aos="flip-left">
           <div className="card" id='tcc-img-card'>
             <img src={st_anthony} alt="tcc-website" />
           </div>
-          <div className="card" id='tcc-description'>
+          <div className="card" id='tcc-description' data-aos="flip-left">
             <h2>03</h2>
             <h3>St. Anthony Parish</h3>
             <p>
@@ -78,11 +84,11 @@ const Project = () => {
       {toggle &&
         
         <div className='toggle'>
-          <section className="project-2" id="eesa">
+          <section className="project-2" id="eesa" data-aos="flip-right">
             <div className="card" id='eesa-img-card'>
               <img src={ zuri } alt="eesa-website" />
             </div>
-            <div className="card" id='eesa-description'>
+            <div className="card" id='eesa-description' data-aos="flip-right">
               <h2>04</h2>
               <h3>Zuri website</h3>
               <p>
@@ -92,11 +98,11 @@ const Project = () => {
               <a href="https://emmadegreat.github.io/zuri-website-task/" target={'_blank'}>view site &#8663;</a>
             </div>
           </section>
-          <section className="project-1" id="tcc">
+          <section className="project-1" id="tcc" data-aos="flip-left">
             <div className="card" id='tcc-img-card'>
               <img src={login} alt="tcc-website" />
             </div>
-            <div className="card" id='tcc-description'>
+            <div className="card" id='tcc-description' data-aos="flip-left">
               <h2>05</h2>
               <h3>Network admin page</h3>
               <p>
@@ -106,11 +112,11 @@ const Project = () => {
               <a href="https://emmadegreat.github.io/network-admin-login-page/" target={'_blank'}>view site &#8663;</a>
             </div>
           </section>
-          <section className="project-2" id="eesa">
-            <div className="card" id='eesa-img-card'>
+          <section className="project-2" id="eesa" data-aos="flip-right">
+            <div className="card" id='eesa-img-card' data-aos="flip-right">
               <img src={ calc } alt="eesa-website" />
             </div>
-            <div className="card" id='eesa-description'>
+            <div className="card" id='eesa-description' data-aos="flip-left">
               <h2>06</h2>
               <h3>Simple calculator</h3>
               <p>

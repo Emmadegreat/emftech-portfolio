@@ -1,14 +1,24 @@
 import './contact.css'
+import 'aos/dist/aos.css'
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+
+import Aos from 'aos'
 
 const Contact = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000, once: false });
+    Aos.refresh();
+    
+  }, [])
+
   const [toggleForm, setToggleForm] = useState(false);
   const Toggle = () => setToggleForm(!toggleForm);
   return (
     <>
       <section className="contact" id="contact">
-        <div className="contact-card" id="contact-card">
+        <div className="contact-card" id="contact-card" data-aos={ 'flip-down'} >
           <p>Have a project you want </p>
           <p>me to bring to live?</p>
           <button className='contact-button' onClick={Toggle}>send me a mail &#8663;</button>
