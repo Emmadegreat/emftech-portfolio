@@ -8,7 +8,7 @@ import emf from '../images/my-profile-pix.jpg'
 import { useEffect } from 'react'
 
 const About = () => {
-  
+
   useEffect(() => {
     Aos.init();
     Aos.refresh({duration:2000,once:false});
@@ -17,7 +17,7 @@ const About = () => {
   const [click, setClick] = useState(false);
   const Toggle = () => setClick(!click);
 
-  
+
   return (
     <>
       <section className="about" id='about'>
@@ -27,7 +27,8 @@ const About = () => {
             <p>
               I am a freelancer frontend web developer, with expertise in developing designs
               into fully functionl websites. I have one and half a year working experience in frontend
-              web developemt with the latest web technologies, like React Js, Bootstrap5 and so on.
+              web developemt with the latest web technologies, like HTML5, CSS3, Javascript,
+              React Js, and Bootstrap5.
               I also build your web application to mobile responsive.
             </p>
             <button className='hire-button' id='hire-button' onClick={Toggle}><a href="https://wa.me/23407034534697" target="_blank">Hire me &#8663;</a> </button>
@@ -35,7 +36,7 @@ const About = () => {
           <div className="about-box" id='pix-box' data-aos="flip-left">
             <img src={emf} alt="profile-pix" className='profile-pix' />
           </div>
-          
+
           {/*click &&
             <div className='hire-me-modal' id='hire-me-modal'>
               <div className="modal-content" id='modal-content'>
@@ -46,7 +47,7 @@ const About = () => {
           */}
         </div>
       </section>
-      
+
     </>
   )
 }
