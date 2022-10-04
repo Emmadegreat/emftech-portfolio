@@ -8,3 +8,20 @@
     justify-content: center;
     color: #fff;
 }
+.scroll{
+    margin-right: 5rem;
+    color: #fff;
+    font-size: 2rem;
+
+}
+@media screen and (max-width:450px){
+    .footer{
+        padding: 3rem 1rem;
+    }
+    .scroll{
+        margin-right: 1rem;
+        color: #fff;
+        font-size: 1.5rem;
+
+    }
+}

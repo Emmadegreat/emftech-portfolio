@@ -8,9 +8,9 @@ import Aos from 'aos'
 const Contact = () => {
 
   useEffect(() => {
-    Aos.init({ duration: 2000, once: false });
+    Aos.init({ duration: 2500, once: false });
     Aos.refresh();
-    
+
   }, [])
 
   const [toggleForm, setToggleForm] = useState(false);
@@ -37,7 +37,7 @@ const Contact = () => {
                   <td><label htmlFor="email">Email</label></td>
                   <td><input type="email" name='email' required /></td>
                   <td><input type="hidden" name="_next" value="https://my-app-ruby-theta.vercel.app/" /></td>
-                  <td><input type="hidden" name="_template" value="table" /></td>  
+                  <td><input type="hidden" name="_template" value="table" /></td>
                 </tr>
                 <tr>
                   <td><label htmlFor="phone-number">Phone Number</label></td>
@@ -53,15 +53,15 @@ const Contact = () => {
                   <td><input type="submit" value="Submit" id='submit'/></td>
                 </tr>
               </table>
-              
+
             </form>
           </div>
         </div>
         }
       </section>
-      
-      
-      
+
+
+
     </>
   )
 }

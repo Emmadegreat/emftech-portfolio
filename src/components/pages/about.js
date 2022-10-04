@@ -11,7 +11,7 @@ const About = () => {
 
   useEffect(() => {
     Aos.init();
-    Aos.refresh({duration:2000,once:false});
+    Aos.refresh({duration:2500,once:false});
   }, [])
 
   const [click, setClick] = useState(false);
@@ -25,11 +25,15 @@ const About = () => {
           <div className="about-box" id='name' data-aos="flip-right">
             <h1>Emmanuel Mkpurunchi</h1>
             <p>
-              I am a freelancer frontend web developer, with expertise in developing designs
-              into fully functionl websites. I have one and half a year working experience in frontend
-              web developemt with the latest web technologies, like HTML5, CSS3, Javascript,
-              React Js, and Bootstrap5.
-              I also build your web application to mobile responsive.
+              I am a frontend web developer, with expertise in developing designs
+              into fully functionl websites. With my experience in frontend web development,
+              my stack covers HTML5, CSS3, Javascript, React JS, and Bootstrap5.
+              I also build your website and web application to mobile responsive. I am
+              always ready and open to work and collaborate with a team of like mind in the
+              tech space. Always ever ready to learn new skills and develop myself in order
+              to attain execellence. I have also
+              received numerous hands-on training as regarding frontend web development.
+              Currently undergoing Ingressive4Good X Zuri training for fullstack developers (frontend/Node Js).
             </p>
             <button className='hire-button' id='hire-button' onClick={Toggle}><a href="https://wa.me/23407034534697" target="_blank">Hire me &#8663;</a> </button>
           </div>
