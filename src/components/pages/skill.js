@@ -14,7 +14,7 @@ import { useEffect } from 'react'
 const Skill = () => {
   useEffect(() => {
     Aos.init();
-    Aos.refresh({duration:2500});
+    Aos.refresh({duration:3000});
   }, [])
   return (
       <>

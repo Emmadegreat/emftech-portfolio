@@ -17,7 +17,7 @@ import zuri from '../images/zuri-final-project-task.PNG'
 const Project = () => {
 
   useEffect(() => {
-    Aos.init({duration:2500,once:false});
+    Aos.init({duration:3000,once:false});
   }, [])
 
   const [toggle, setToggle] = useState(false);

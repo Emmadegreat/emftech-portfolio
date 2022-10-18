@@ -16,7 +16,7 @@ const App = () => {
 
   useEffect(() => {
     Aos.init();
-    Aos.refresh({ duration: 2500,once:false});
+    Aos.refresh({ duration: 3000,once:false});
   }, [])
   return (
     <div className='app'>

@@ -8,13 +8,17 @@ import Aos from 'aos'
 const Contact = () => {
 
   useEffect(() => {
-    Aos.init({ duration: 2500, once: false });
+    Aos.init({ duration: 3000, once: false });
     Aos.refresh();
 
   }, [])
 
   const [toggleForm, setToggleForm] = useState(false);
   const Toggle = () => setToggleForm(!toggleForm);
+
+  const handleSubmit = () => {
+
+  }
   return (
     <>
       <section className="contact" id="contact">
