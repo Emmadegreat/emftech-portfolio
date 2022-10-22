@@ -16,9 +16,6 @@ const Contact = () => {
   const [toggleForm, setToggleForm] = useState(false);
   const Toggle = () => setToggleForm(!toggleForm);
 
-  const handleSubmit = () => {
-
-  }
   return (
     <>
       <section className="contact" id="contact">
