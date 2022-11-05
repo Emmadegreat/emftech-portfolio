@@ -14,7 +14,7 @@ const Navigation = () => {
     const handleClick = () => setClick(!click);
 
     const closeMenu=()=>setClick(false)
-        
+
   return (
         <>
             <BrowserRouter>
@@ -32,7 +32,7 @@ const Navigation = () => {
                           (<FaBars size={40} style={ {color:'#fff'}} />)
                       }
                   </div>
-                    
+
                   <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
                             <HashLink
@@ -62,9 +62,9 @@ const Navigation = () => {
                         </li>
                         <li className="nav-item">
                             <HashLink
-                                to='/#project' 
-                                spy="true" 
-                                smooth={true} 
+                                to='/#project'
+                                spy="true"
+                                smooth={true}
                                 activeClass="active"
                                 offset={-40}
                                 duration={500}
@@ -75,9 +75,9 @@ const Navigation = () => {
                       </li>
                       <li className="nav-item">
                             <HashLink
-                                to='/#contact' 
-                                spy="true" 
-                                smooth={true} 
+                                to='/#contact'
+                                spy="true"
+                                smooth={true}
                                 activeClass="active"
                                 offset={-70}
                                 duration={500}
@@ -89,7 +89,7 @@ const Navigation = () => {
                   </ul>
                 </nav>
             </BrowserRouter>
-      
+
         </>
     )
 }
