@@ -44,7 +44,7 @@ const Project = () => {
               the company to showcase their competency and easily connect with
               clients.
             </p>
-            <a href="https://tcc-work.herokuapp.com/index.html" target={'_blank'}>view site &#8663;</a>
+            <a href="https://tcc-peach.vercel.app/" target={'_blank'}>view site &#8663;</a>
           </div>
         </section>
 
