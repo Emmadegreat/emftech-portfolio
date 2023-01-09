@@ -9,7 +9,7 @@ const Footer = (props) => {
     <footer className="footer">
       <address>
         <div className="scroll-top page-scroll visible-xs visible-sm visible-m visible-lg">
-          <a href=""  className="scroll">
+          <a href="#"  className="scroll">
             <FaArrowCircleUp />
           </a>
         </div>
