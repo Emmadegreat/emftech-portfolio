@@ -11,7 +11,7 @@ const About = () => {
 
   useEffect(() => {
     Aos.init();
-    Aos.refresh({duration:3000,once:false});
+    Aos.refresh({duration:4000,once:false});
   }, [])
 
   const [click, setClick] = useState(false);
