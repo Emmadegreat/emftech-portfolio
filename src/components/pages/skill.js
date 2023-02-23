@@ -11,6 +11,16 @@ import js from '../images/JavaScript-Logo.png'
 import react from '../images/react-js-logo.png'
 import { useEffect } from 'react'
 
+//import { Link } from 'react-router-dom'
+
+
+
+
+
+
+
+
+
 const Skill = () => {
   useEffect(() => {
     Aos.init();
