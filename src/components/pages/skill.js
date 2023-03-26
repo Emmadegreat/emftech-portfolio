@@ -13,14 +13,6 @@ import { useEffect } from 'react'
 
 //import { Link } from 'react-router-dom'
 
-
-
-
-
-
-
-
-
 const Skill = () => {
   useEffect(() => {
     Aos.init();

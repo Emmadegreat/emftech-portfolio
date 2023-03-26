@@ -11,31 +11,37 @@ const About = () => {
 
   useEffect(() => {
     Aos.init();
-    Aos.refresh({duration:4000,once:false});
+    Aos.refresh({duration:3000,once:false});
   }, [])
 
   const [click, setClick] = useState(false);
   const Toggle = () => setClick(!click);
 
+  /*1 GOVERNOR. 8 SENATORS. 34 HOUSE OF REPS. 68 STATE OF ASSEMBLY MEMBERS. */
+
 
   return (
     <>
       <section className="about" id='about'>
+        <h1>Emmanuel Mkpurunchi</h1>
         <div className="about-container">
           <div className="about-box" id='name' data-aos="flip-right">
-            <h1>Emmanuel Mkpurunchi</h1>
+
             <p>
-              I am a frontend web developer, with expertise in developing designs
-              into fully functionl websites. With my experience in frontend web development,
-              my stack covers HTML5, CSS3, Javascript, React JS, and Bootstrap5.
-              I also build your website and web application to mobile responsive. I am
-              always ready and open to work and collaborate with a team of like mind in the
-              tech space. Always ever ready to learn new skills and develop myself in order
-              to attain execellence. I have also
-              received numerous hands-on training as regarding frontend web development.
-              Currently undergoing Ingressive4Good X Zuri training for fullstack developers (frontend/Node Js).
+              I am a self motivated web developer and tech enthusiast, with expertise in
+              developing designs into fully functionl websites. <br />
+              My stack covers HTML5, CSS3, JavaScript, SAAS, React JS, Bootstrap, and WordPress.
+              I also build your website and web application to mobile responsive. <br /> I am a team
+              player and like collaborating with a team of like mind. I enjoy learning new skills
+              and self development in order to attain execellence. Delivering quality service and
+              client's satisfaction is my utmost concern.<br />
+              I have also received numerous hands-on training as regarding web development
+              and software engineering in general, which includes but not limited to: Ingressive4Good X
+              Zuri training 2022 (frontend/Node Js), CWW Tech Africa cohort 2022 (frontend). <br />
+              With my experience in web development, I have been able to carry out the following projects
+              which can be seen in the project section of this site.
             </p>
-            <button className='hire-button' id='hire-button' onClick={Toggle}><a href="https://wa.me/23407034534697" target="_blank">Hire me &#8663;</a> </button>
+            <button className='hire-button' id='hire-button' onClick={Toggle}><a href="https://wa.me/23407034534697" target="_blank" rel="noreferrer">Hire me &#8663;</a> </button>
           </div>
           <div className="about-box" id='pix-box' data-aos="flip-left">
             <img src={emf} alt="profile-pix" className='profile-pix' />

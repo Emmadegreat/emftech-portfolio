@@ -2,16 +2,20 @@ import "./footer.css"
 
 import { FaArrowCircleUp } from "react-icons/fa"
 import React from 'react'
+import ScrollToTop from 'react-scroll-to-top'
 
 const Footer = (props) => {
 
   return (
     <footer className="footer">
       <address>
-        <div className="scroll-top page-scroll visible-xs visible-sm visible-m visible-lg">
-          <a href="#top" rel="noreferrer" className="scroll">
-            <FaArrowCircleUp />
-          </a>
+        <div className="scroll_to_top">
+          <ScrollToTop
+            smooth top={20}
+            height="28" width="28"
+            color='#fff;'
+            style={{ background: "rgb(119, 178, 220)"}}
+          />
         </div>
       </address>
       <span>{props.text}  </span>

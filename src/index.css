@@ -37,6 +37,7 @@
     background: url('./components/images/developer.png') no-repeat center center / cover;
     place-content: center;
     place-items: center;
+
 }
 
 @media screen and (max-width:768px){

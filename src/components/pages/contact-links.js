@@ -17,10 +17,10 @@ const ContactLinks = () => {
                 </div>
                 <div className="links">
                     <ul className='social-links'>
-                        <li><a href="https://www.facebook.com/emmanuelf.mkpurunchi" target="_blank">{ <FaFacebookSquare/> }</a></li>
-                        <li><a href="https://twitter.com/Emmadegreat_" target="_blank">{ <FaTwitterSquare/> }</a></li>
-                        <li><a href="https://www.linkedin.com/in/emmanuelmkpurunchi/" target="_blank">{ <FaLinkedinIn/> }</a></li>
-                        <li><a href="https://github.com/Emmadegreat/" target="_blank">{ <FaGithubSquare/> }</a></li>
+                        <li><a href="https://www.facebook.com/emmanuelf.mkpurunchi" target="_blank" rel="noreferrer">{ <FaFacebookSquare/> }</a></li>
+                        <li><a href="https://twitter.com/Emmadegreat_" target="_blank" rel="noreferrer">{ <FaTwitterSquare/> }</a></li>
+                        <li><a href="https://www.linkedin.com/in/emmanuelmkpurunchi/" target="_blank" rel="noreferrer">{ <FaLinkedinIn/> }</a></li>
+                        <li><a href="https://github.com/Emmadegreat/" target="_blank" rel="noreferrer">{ <FaGithubSquare/> }</a></li>
                     </ul>
 
                    <BrowserRouter>
