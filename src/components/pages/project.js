@@ -44,7 +44,7 @@ const Project = () => {
               the company to showcase their competency and easily connect with
               clients.
             </p>
-            <a href="https://tcc-peach.vercel.app/" target={'_blank'}>view site &#8663;</a>
+            <a href="https://tcc-peach.vercel.app/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
           </div>
         </section>
 
@@ -60,7 +60,7 @@ const Project = () => {
               Engineering Unizik, Awka. The web application helps the students
               to submit their project to their supervisors online.
             </p>
-            <a href="https://www.eesa5nalists.com.ng/" target={'_blank'}>view site &#8663;</a>
+            <a href="https://www.eesa5nalists.com.ng/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
           </div>
         </section>
 
@@ -76,7 +76,7 @@ const Project = () => {
               Alagbado Lagos state. Need more info about St. Anthony Alagbado, visit
               their website.
             </p>
-            <a href="https://emmadegreat.github.io/st-anthony-site/" target={'_blank'}>view site &#8663;</a>
+            <a href="https://emmadegreat.github.io/st-anthony-site/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
           </div>
         </section>
         <div className='see-more' onClick={Close}>{/*========= toggle button=========*/}
@@ -96,7 +96,7 @@ const Project = () => {
                 Final project/task done at I4GxZuri 2022 training,
                 for frentend developers.
               </p>
-              <a href="https://emmadegreat.github.io/zuri-website-task/" target={'_blank'}>view site &#8663;</a>
+              <a href="https://emmadegreat.github.io/zuri-website-task/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
             </div>
           </section>
           <section className="project-1" id="tcc" data-aos="flip-left">
@@ -110,7 +110,7 @@ const Project = () => {
                 Network admin login/log out pages that enables the
                 admin to have access to the backend.
               </p>
-              <a href="https://emmadegreat.github.io/network-admin-login-page/" target={'_blank'}>view site &#8663;</a>
+              <a href="https://emmadegreat.github.io/network-admin-login-page/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
             </div>
           </section>
           <section className="project-2" id="eesa" data-aos="flip-right">
@@ -123,7 +123,7 @@ const Project = () => {
               <p>
                 A simple JS calculator application that performs basic arithmetic operations.
               </p>
-              <a href="https://emmadegreat.github.io/Js__cal__app/" target={'_blank'}>view site &#8663;</a>
+              <a href="https://emmadegreat.github.io/Js__cal__app/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
             </div>
           </section>
         </div>
