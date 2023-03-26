@@ -95,6 +95,11 @@
     #name{
         order: 2;
     }
+    #name p{
+        font-size: 1.1rem;
+        line-height: 1.5;
+        text-align: start;
+    }
     .profile-pix{
         max-width: 300px;
         width: 100%;
