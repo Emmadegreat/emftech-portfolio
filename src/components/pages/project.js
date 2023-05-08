@@ -30,15 +30,30 @@ const Project = () => {
 
   return (
       <section className='project' id='project'>
-          <h1>
-              My Projects <span>.</span>
-          </h1>
+        <h1>
+          My Projects <span>.</span>
+        </h1>
         <section className="project-1" id="tcc" data-aos="flip-left">
           <div className="card" id='tcc-img-card'>
-            <img src={tcc} alt="tcc-website" />
+            <img src={cta} alt="cta-website" />
           </div>
           <div className="card" id='tcc-description' data-aos="flip-left">
             <h2>01</h2>
+            <h3>CTA website</h3>
+            <p>
+              I cloned the CWW TECH AFRICA (CTA) website using React JS
+              and SASS. View the site via the hosted link below.
+            </p>
+            <a href="https://cta-site.vercel.app/" target="_blank" rel="noreferrer">view site &#8663;</a>
+          </div>
+        </section>
+
+        <section className="project-2" id="eesa" data-aos="flip-right">
+          <div className="card" id='eesa-img-card'>
+            <img src={tcc} alt="tcc-website"/>
+          </div>
+          <div className="card" id='tcc-description' data-aos="flip-left">
+            <h2>02</h2>
             <h3>TCC website</h3>
             <p>
               TCC is a civil engineering construction company. This site enables
@@ -46,22 +61,6 @@ const Project = () => {
               clients.
             </p>
             <a href="https://tcc-peach.vercel.app/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
-          </div>
-        </section>
-
-        <section className="project-2" id="eesa" data-aos="flip-right">
-          <div className="card" id='eesa-img-card'>
-            <img src={ eesa } alt="eesa-website" />
-          </div>
-          <div className="card" id='eesa-description' data-aos="flip-right">
-            <h2>02</h2>
-            <h3>EESA</h3>
-            <p>
-              Web application developed for final year students of Electrical
-              Engineering Unizik, Awka. The web application helps the students
-              to submit their project to their supervisors online.
-            </p>
-            <a href="https://www.eesa5nalists.com.ng/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
           </div>
         </section>
 
@@ -127,20 +126,21 @@ const Project = () => {
               <a href="https://emmadegreat.github.io/Js__cal__app/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
             </div>
           </section>
-          <section className="project-1" id="cta" data-aos="flip-left">
-            <div className="card" id='cta-img-card'>
-              <img src={cta} alt="cta-website" />
-            </div>
-            <div className="card" id='tcc-description' data-aos="flip-left">
-              <h2>07</h2>
-              <h3>CTA website</h3>
-              <p>
-                I cloned the CWW TECH AFRICA (CTA) website using React JS
-                and SASS. View the site via the hosted link below.
-              </p>
-              <a href="https://cta-site.vercel.app/" target="_blank" rel="noreferrer">view site &#8663;</a>
-            </div>
-          </section>
+          {/*<section className="project-2" id="eesa" data-aos="flip-right">
+          <div className="card" id='eesa-img-card'>
+            <img src={ eesa } alt="eesa-website" />
+          </div>
+          <div className="card" id='eesa-description' data-aos="flip-right">
+            <h2>02</h2>
+            <h3>EESA</h3>
+            <p>
+              Web application developed for final year students of Electrical
+              Engineering Unizik, Awka. The web application helps the students
+              to submit their project to their supervisors online.
+            </p>
+            <a href="https://www.eesa5nalists.com.ng/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
+          </div>
+        </section>*/}
         </div>
 
       }
