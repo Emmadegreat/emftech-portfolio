@@ -37,7 +37,10 @@ const Skill = () => {
                 </div>
                 <div>
                   <img src={ react } alt="react-logo" />
-              </div>
+                </div>
+                <div>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQib0qEXu0xxBZlWTF8LUhZZkLOtIYvdm8GUg&usqp=CAU" alt="act-logo"/>
+                </div>
 
             </section>
         <a href={cv} style={{ texetAlign:'center'}} download >View CV </a>

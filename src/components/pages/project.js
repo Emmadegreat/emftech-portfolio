@@ -8,6 +8,7 @@ import { FaArrowDown } from 'react-icons/fa'
 import React from 'react'
 import calc from '../images/js-calc-app.PNG'
 import { click } from '@testing-library/user-event/dist/click'
+import cta from '../images/cta-img.PNG'
 import eesa from '../images/eesa.PNG'
 import login from '../images/network-admin-login.PNG'
 import st_anthony from '../images/st-anthony.PNG'
@@ -124,6 +125,20 @@ const Project = () => {
                 A simple JS calculator application that performs basic arithmetic operations.
               </p>
               <a href="https://emmadegreat.github.io/Js__cal__app/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
+            </div>
+          </section>
+          <section className="project-1" id="cta" data-aos="flip-left">
+            <div className="card" id='cta-img-card'>
+              <img src={cta} alt="cta-website" />
+            </div>
+            <div className="card" id='tcc-description' data-aos="flip-left">
+              <h2>07</h2>
+              <h3>CTA website</h3>
+              <p>
+                I cloned the CWW TECH AFRICA (CTA) website using React JS
+                and SASS. View the site via the hosted link below.
+              </p>
+              <a href="https://cta-site.vercel.app/" target="_blank" rel="noreferrer">view site &#8663;</a>
             </div>
           </section>
         </div>
