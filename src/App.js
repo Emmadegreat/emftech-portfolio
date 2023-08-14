@@ -34,7 +34,7 @@ const App = () => {
         <ContactLinks />
       </div>
       <Footer
-        text="&copy;All rights reserved &nbsp;EMF &nbsp;"
+        text="&copy; All rights reserved &nbsp;EMF &nbsp;"
         year={ new Date().getFullYear()}
 
       />

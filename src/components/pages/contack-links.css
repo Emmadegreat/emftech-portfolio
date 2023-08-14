@@ -18,89 +18,98 @@
 .logo-1 span{
     color: rgb(119, 178, 220);
 }
-.links{
+.footer-links{
     padding: 3rem 8rem 0rem 8rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
-.links .social-links{
+.footer-links .social-links{
     display: flex;
     padding-right: 1rem;
     list-style-type: none;
+    order: 1;
 }
-.links .social-links li{
+.footer-links .social-links li{
     display: inline;
     list-style-type: none;
     margin: 0rem 1.4rem;
 }
-.links .social-links li a{ 
+.footer-links .social-links li a{
     display: inline;
     text-decoration: none;
     font-size: 2rem;
     color: rgb(119, 178, 220);
     text-transform: capitalize;
 }
-.links .social-links li a:hover{ 
+.footer-links .social-links li a:hover{
     color: #fff;
     text-transform: capitalize;
 }
 
+.footer-menu{
+    order: 2;
+}
 
-
-.bottom-menu ul{
+.footer-menu ul{
     display: flex;
     padding-left: 1rem;
     list-style-type: none;
 }
-.bottom-menu ul li{
+.footer-menu ul li{
     display: inline;
     list-style-type: none;
     margin: 0rem 1.4rem;
 }
-.bottom-menu ul li a{ 
+.footer-menu ul li a{
     display: inline;
     text-decoration: none;
     color: #fdf3f2;
     font-size: 1.1rem;
     text-transform: capitalize;
-    
+
 }
-.bottom-menu ul li a:hover{ 
+.footer-menu ul li a:hover{
     color: rgb(119, 178, 220);
 }
 
 
 @media screen and (max-width:768px){
-    .links{
+    .footer-links{
         padding: 3rem 7rem 0rem 7rem;
     }
-    .links .social-links li{
+    .footer-links .social-links{
+        order: 2;
+    }
+    .footer-links .social-links li{
         margin: 0.7rem;
     }
-    .links .social-links li a{
+    .footer-links .social-links li a{
         font-size: 1.8rem;
     }
-    .bottom-menu ul li{
+    .footer-menu{
+        order: 1;
+    }
+    .footer-menu ul li{
         margin: 1rem 0.7rem;
     }
 }
 
 
 @media screen and (max-width:550px){
-    .links{
+    .footer-links{
         flex-direction: column;
         justify-content: center;
         padding: 3rem 8rem 0rem 8rem;
     }
-    .links .social-links li{
+    .footer-links .social-links li{
         margin: 1rem;
     }
-    .links .social-links li a{
+    .footer-links .social-links li a{
         font-size: 2rem;
     }
-    .bottom-menu ul li{
+    .footer-menu ul li{
         margin: 1rem 0.7rem;
     }
 }

@@ -28,12 +28,12 @@ const Navigation = () => {
                       <p>&#128222; +2347034534697</p>
                   </div>
                   <div className="hamburger" onClick={handleClick}>
-                      {click ? (<FaTimes size={40} style={{ color: '#fff' }} />) :
-                          (<FaBars size={40} style={ {color:'#fff'}} />)
+                      {click ? (<FaTimes size={30} style={{ color: '#fff' }} />) :
+                          (<FaBars size={30} style={ {color:'#fff'}} />)
                       }
                   </div>
 
-                  <ul className={click ? "nav-menu active" : "nav-menu"}>
+                  <ul className={click ? ("nav-menu active") : ("nav-menu")}>
                         <li className="nav-item">
                             <HashLink
                               to='#about'

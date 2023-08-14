@@ -15,7 +15,7 @@ const ContactLinks = () => {
                     <img src={logo} alt="logo" />
                     <span>iCode</span>
                 </div>
-                <div className="links">
+                <div className="footer-links">
                     <ul className='social-links'>
                         <li><a href="https://www.facebook.com/emmanuelf.mkpurunchi" target="_blank" rel="noreferrer">{ <FaFacebookSquare/> }</a></li>
                         <li><a href="https://twitter.com/Emmadegreat_" target="_blank" rel="noreferrer">{ <FaTwitterSquare/> }</a></li>
@@ -24,7 +24,7 @@ const ContactLinks = () => {
                     </ul>
 
                    <BrowserRouter>
-                        <div className='bottom-menu'>
+                        <div className='footer-menu'>
                             <ul>
                                 <li>
                                     <HashLink

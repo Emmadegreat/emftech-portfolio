@@ -25,14 +25,14 @@
 .nav-bar .nav-menu .nav-item a{
     color: #fff;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.2rem;
     list-style-type: none;
     text-transform: capitalize;
 }
 .nav-bar .nav-menu .nav-item a:hover{
     color: rgb(201, 194, 194);
-    border-bottom: 3px solid rgb(119, 178, 220);
+    border-bottom: 2px solid rgb(119, 178, 220);
 }
 .logo{
     margin-top: 0.3rem;
@@ -50,7 +50,7 @@
         height: 80px;
         padding: 0rem 3.5rem;
         justify-content: space-between;
-        border-bottom: 5px solid rgb(119, 178, 220);
+        border-bottom: 3px solid rgb(119, 178, 220);
     }
     .hamburger{
         display: block;
@@ -62,7 +62,7 @@
         margin: 0.5rem auto 0rem 0rem;
         display: flex;
         left: -100%;
-        background-color: rgb(119, 178, 220);
+        background-color: rgb(41, 39, 39);
         top: 72px;
         z-index: 1000;
         padding-bottom: 1.5rem;
@@ -80,11 +80,11 @@
         color: rgb(41, 39, 39);
     }
     .nav-bar .nav-menu .nav-item a{
-        color: rgb(41, 39, 39);
+        color: #fff;
     }
     .nav-bar .nav-menu .nav-item a:hover{
-        color: rgb(41, 39, 39);
-        border-bottom: 3px solid yellow;;
+        color: #fff;
+        border-bottom: 3px solid rgb(119, 178, 220);
     }
 }
 @media screen and (max-width:540px){

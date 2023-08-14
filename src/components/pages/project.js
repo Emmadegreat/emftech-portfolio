@@ -25,7 +25,7 @@ const Project = () => {
   const [click, setClick] = useState(false);
 
   const SeeMore = () => setToggle(!toggle);
-  const Close =()=>setClick(!click)
+  const Close = () =>setClick(!click)
 
 
   return (
@@ -33,11 +33,11 @@ const Project = () => {
         <h1>
           My Projects <span>.</span>
         </h1>
-        <section className="project-1" id="tcc" data-aos="flip-left">
-          <div className="card" id='tcc-img-card'>
-            <img src={cta} alt="cta-website" />
+        <section className="project-odd" id="tcc" data-aos="flip-left">
+          <div className="card" id='odd-img-card'>
+            <img src={cta} alt="cta-website-img" />
           </div>
-          <div className="card" id='tcc-description' data-aos="flip-left">
+          <div className="card" id='odd-description' data-aos="flip-left">
             <h2>01</h2>
             <h3>CTA website</h3>
             <p>
@@ -48,11 +48,11 @@ const Project = () => {
           </div>
         </section>
 
-        <section className="project-2" id="eesa" data-aos="flip-right">
-          <div className="card" id='eesa-img-card'>
-            <img src={tcc} alt="tcc-website"/>
+        <section className="project-even" id="eesa" data-aos="flip-right">
+          <div className="card" id='even-img-card'>
+            <img src={tcc} alt="tcc-website-img"/>
           </div>
-          <div className="card" id='tcc-description' data-aos="flip-left">
+          <div className="card" id='even-description' data-aos="flip-left">
             <h2>02</h2>
             <h3>TCC website</h3>
             <p>
@@ -64,11 +64,11 @@ const Project = () => {
           </div>
         </section>
 
-        <section className="project-1" id="tcc" data-aos="flip-left">
-          <div className="card" id='tcc-img-card'>
-            <img src={st_anthony} alt="tcc-website" />
+        <section className="project-odd" id="tcc" data-aos="flip-left">
+          <div className="card" id='odd-img-card'>
+            <img src={st_anthony} alt="st-Anthony-website-img." />
           </div>
-          <div className="card" id='tcc-description' data-aos="flip-left">
+          <div className="card" id='odd-description' data-aos="flip-left">
             <h2>03</h2>
             <h3>St. Anthony Parish</h3>
             <p>
@@ -85,11 +85,11 @@ const Project = () => {
       {toggle &&
 
         <div className='toggle'>
-          <section className="project-2" id="eesa" data-aos="flip-right">
-            <div className="card" id='eesa-img-card'>
-              <img src={ zuri } alt="eesa-website" />
+          <section className="project-even" id="eesa" data-aos="flip-right">
+            <div className="card" id='even-img-card'>
+              <img src={ zuri } alt="Zuri-website-img." />
             </div>
-            <div className="card" id='eesa-description' data-aos="flip-right">
+            <div className="card" id='even-description' data-aos="flip-right">
               <h2>04</h2>
               <h3>Zuri website</h3>
               <p>
@@ -99,11 +99,11 @@ const Project = () => {
               <a href="https://emmadegreat.github.io/zuri-website-task/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
             </div>
           </section>
-          <section className="project-1" id="tcc" data-aos="flip-left">
-            <div className="card" id='tcc-img-card'>
-              <img src={login} alt="tcc-website" />
+          <section className="project-odd" id="tcc" data-aos="flip-left">
+            <div className="card" id='odd-img-card'>
+              <img src={login} alt="network-admin-img" />
             </div>
-            <div className="card" id='tcc-description' data-aos="flip-left">
+            <div className="card" id='odd-description' data-aos="flip-left">
               <h2>05</h2>
               <h3>Network admin page</h3>
               <p>
@@ -113,11 +113,11 @@ const Project = () => {
               <a href="https://emmadegreat.github.io/network-admin-login-page/" target={'_blank'} rel="noreferrer">view site &#8663;</a>
             </div>
           </section>
-          <section className="project-2" id="eesa" data-aos="flip-right">
-            <div className="card" id='eesa-img-card' data-aos="flip-right">
-              <img src={ calc } alt="eesa-website" />
+          <section className="project-even" id="eesa" data-aos="flip-right">
+            <div className="card" id='even-img-card' data-aos="flip-right">
+              <img src={ calc } alt="calculator-app-img." />
             </div>
-            <div className="card" id='eesa-description' data-aos="flip-left">
+            <div className="card" id='even-description' data-aos="flip-left">
               <h2>06</h2>
               <h3>Simple calculator</h3>
               <p>
@@ -149,3 +149,5 @@ const Project = () => {
 }
 
 export default Project
+
+
