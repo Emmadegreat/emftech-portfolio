@@ -44,7 +44,7 @@
 @media screen and (max-width:768px){
     .hero-section{
         background-color: var(--overlay);
-        height: 70vh;
+        height: 90vh;
         width: 100%;
         position: relative;
     }
@@ -54,12 +54,14 @@
     .hero-section{
         height: 70vh;
         width: 100%;
+        background-attachment: scroll;
     }
 }
 
 @media screen and (max-width:400px){
     .hero-section{
-        height: 50vh;
+        height: 70vh;
         width: 100%;
+        background-attachment: scroll;
     }
 }

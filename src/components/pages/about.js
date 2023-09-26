@@ -26,7 +26,7 @@ const About = () => {
         <TypeAnimation
           sequence={['Emmanuel Mkpurunchi', 500, 'Frontend Developer', 500,]}
 
-          style={{ fontSize: '2.8rem' }}
+          style={{ fontSize: '2.2rem', lineHeight:"1.2" }}
           repeat={Infinity}
           speed={20}
           wrapper='h1'
