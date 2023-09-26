@@ -1,4 +1,4 @@
-import './index.css'
+import './components/style/index.css'
 import "aos/dist/aos.css"
 
 import About from './components/pages/about'
@@ -22,7 +22,7 @@ const App = () => {
     <div className='app'>
       <Navigation />
       <section className='hero-section'
-        //data-aos="flip-left"
+
       />
 
       <div className='pages'>

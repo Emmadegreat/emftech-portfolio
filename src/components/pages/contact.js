@@ -1,4 +1,4 @@
-import './contact.css'
+import '../style/contact.css'
 import 'aos/dist/aos.css'
 
 import React, { useEffect, useState } from 'react'

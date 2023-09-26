@@ -1,4 +1,4 @@
-import './skill.css'
+import '../style/skill.css'
 import "aos/dist/aos.css"
 
 import Aos from 'aos'

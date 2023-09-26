@@ -1,4 +1,4 @@
-import './contack-links.css'
+import '../style/contack-links.css'
 
 import { FaFacebookSquare, FaGithubSquare, FaLinkedinIn, FaTwitterSquare } from 'react-icons/fa'
 

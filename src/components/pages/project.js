@@ -1,14 +1,11 @@
-import './project.css'
+import '../style/project.css'
 import "aos/dist/aos.css"
 
 import { useEffect, useState } from 'react'
 
 import Aos from 'aos'
-import { FaArrowDown } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
 import React from 'react'
 import calc from '../images/calc.png'
-import { click } from '@testing-library/user-event/dist/click'
 import cta from '../images/cta.png'
 import e_store from '../images/e-store.png'
 import login from '../images/court1.png'

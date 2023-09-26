@@ -1,11 +1,7 @@
-import "./footer.css"
+import "../style/footer.css"
 
 import React from 'react'
 import ScrollToTop from 'react-scroll-to-top'
-
-//import { FaArrowCircleUp } from "react-icons/fa"
-
-
 
 const Footer = (props) => {
 

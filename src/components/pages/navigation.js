@@ -1,4 +1,4 @@
-import './navigation.css'
+import '../style/navigation.css'
 
 import { FaBars, FaTimes } from 'react-icons/fa'
 import React, { useState } from 'react'

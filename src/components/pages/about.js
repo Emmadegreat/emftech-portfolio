@@ -1,4 +1,4 @@
-import './about.css'
+import '../style/about.css'
 import "aos/dist/aos.css"
 
 import React, {useState} from 'react'
