@@ -22,7 +22,7 @@ const App = () => {
     <div className='app'>
       <Navigation />
       <section className='hero-section'
-        data-aos="flip-left"
+        //data-aos="flip-left"
       />
 
       <div className='pages'>
