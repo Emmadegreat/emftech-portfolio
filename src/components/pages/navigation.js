@@ -20,7 +20,7 @@ const Navigation = () => {
             <BrowserRouter>
                 <nav className="nav-bar">
                     <div className="logo">
-                        <HashLink smooth to='/#' onClick={ closeMenu }>
+                        <HashLink smooth to='/' onClick={ closeMenu }>
                           <img src={emf} alt="img" width={50} height={50} />
                         </HashLink>
                   </div>
@@ -36,13 +36,14 @@ const Navigation = () => {
                   <ul className={click ? ("nav-menu active") : ("nav-menu")}>
                         <li className="nav-item">
                             <HashLink
-                              to='#about'
-                              spy="true"
-                              smooth={true}
-                              activeClass="active"
-                              offset={-80}
-                              duration={500}
-                              onClick={ closeMenu }
+                                to='#about'
+                                spy="true"
+                                smooth={true}
+                                activeClass="active"
+                                offset={-80}
+                                duration={500}
+                                onClick={closeMenu}
+
                             >
                                 about
                             </HashLink>
