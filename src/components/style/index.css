@@ -52,7 +52,7 @@
 
 @media screen and (max-width:600px){
     .hero-section{
-        height: 70vh;
+        height: 50vh;
         width: 100%;
         background-attachment: scroll;
     }
@@ -60,7 +60,7 @@
 
 @media screen and (max-width:400px){
     .hero-section{
-        height: 70vh;
+        height: 50vh;
         width: 100%;
         background-attachment: scroll;
     }
