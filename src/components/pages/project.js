@@ -11,10 +11,10 @@ import calc from '../images/calc.png'
 import { click } from '@testing-library/user-event/dist/click'
 import cta from '../images/cta.png'
 import e_store from '../images/e-store.png'
-import login from '../images/network-admin-login.PNG'
+import login from '../images/court1.png'
 import st_anthony from '../images/stanthony.png'
-import tcc from '../images/tcc.PNG'
-import zuri from '../images/zuri-final-project-task.PNG'
+import tcc from '../images/tcc1.png'
+import zuri from '../images/zuri1.png'
 
 const Project = () => {
 
