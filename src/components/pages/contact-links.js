@@ -13,7 +13,6 @@ const ContactLinks = () => {
             <section className='contact-links' id='contact-links'>
                 <div className="logo-1">
                     <img src={logo} alt="logo" />
-                    <span>iCode</span>
                 </div>
                 <div className="footer-links">
                     <ul className='social-links'>

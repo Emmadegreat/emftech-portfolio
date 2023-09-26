@@ -60,13 +60,15 @@
         position: fixed;
         margin: 0.5rem auto 0rem 0rem;
         display: flex;
+        justify-content: left;
+        align-items: left;
         left: -100%;
         background-color: rgb(41, 39, 39);
         top: 72px;
         z-index: 1000;
-        padding-bottom: 1.5rem;
+        padding: 1.5rem 0.8rem;
         flex-direction: column;
-        text-align: center;
+        text-align: left;
         transition: 0.4s ease;
     }
     .nav-menu.active{
@@ -74,8 +76,8 @@
     }
 
     .nav-bar .nav-menu .nav-item{
-        padding: 1.2rem;
-        margin: auto;
+        padding: 1rem;
+        /*margin: auto;*/
         color: rgb(41, 39, 39);
     }
     .nav-bar .nav-menu .nav-item a{

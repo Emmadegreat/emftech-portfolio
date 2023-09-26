@@ -28,8 +28,8 @@ const Navigation = () => {
                       <p>&#128222; +2347034534697</p>
                   </div>
                   <div className="hamburger" onClick={handleClick}>
-                      {click ? (<FaTimes size={30} style={{ color: '#fff' }} />) :
-                          (<FaBars size={30} style={ {color:'#fff'}} />)
+                      {click ? (<FaTimes size={25} style={{ color: '#fff' }} />) :
+                        (<FaBars size={25} style={ {color:'#fff'}} />)
                       }
                   </div>
 
