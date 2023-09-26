@@ -4,6 +4,7 @@ import "aos/dist/aos.css"
 import React, {useState} from 'react'
 
 import Aos from 'aos'
+import { TypeAnimation } from 'react-type-animation'
 import emf from '../images/my-profile-pix.jpg'
 import { useEffect } from 'react'
 
@@ -17,13 +18,20 @@ const About = () => {
   const [click, setClick] = useState(false);
   const Toggle = () => setClick(!click);
 
-  /*1 GOVERNOR. 8 SENATORS. 34 HOUSE OF REPS. 68 STATE OF ASSEMBLY MEMBERS. */
-
 
   return (
     <>
       <section className="about" id='about'>
-        <h1>Emmanuel Mkpurunchi</h1>
+
+        <TypeAnimation
+          sequence={['Emmanuel Mkpurunchi', 500, 'Frontend Developer', 500,]}
+
+          style={{ fontSize: '3rem' }}
+          repeat={Infinity}
+          speed={20}
+          wrapper='h1'
+        />
+
         <div className="about-container">
           <div className="about-box" id='name' data-aos="flip-right">
 
