@@ -24,7 +24,7 @@ const About = () => {
       <section className="about" id='about'>
 
         <TypeAnimation
-          sequence={['Hi,', 1000, 'I am', 1000, 'Emmanuel Mkpurunchi', 1000, 'Frontend Developer', 1000,]}
+          sequence={['Hi,', 1000, 'I am', 1000, 'Emmanuel Mkpurunchi', 1000, 'Web Developer', 1000,]}
 
           style={{ fontSize: '2.2rem', lineHeight:"1.2" }}
           repeat={Infinity}
