@@ -32,8 +32,25 @@ const About = () => {
           wrapper='h1'
         />
 
+        {/*<TypeAnimation
+          sequence={[
+            <span style={{ color: 'red' }}>Hi I am,</span>,
+            1000,
+
+            <span style={{ color: 'green' }}>Emmanuel Mkpurunchi</span>,
+            1000,
+            <span style={{ color: 'orange' }}>Web Developer</span>,
+            1000,
+          ]}
+          style={{ fontSize: '2.2rem', lineHeight: '1.2' }}
+          repeat={Infinity}
+          speed={20}
+          wrapper='h1'
+        />*/}
+
+
         <div className="about-container">
-          <div className="about-box" id='name' data-aos="flip-right">
+          <div className="about-box" id='name' data-aos="">
 
             <p>
               I am a self motivated web developer and tech enthusiast, with expertise in
@@ -49,9 +66,9 @@ const About = () => {
               With my experience in web development, I have been able to carry out the following projects
               which can be seen in the project section of this site.
             </p>
-            <button className='hire-button' id='hire-button' onClick={Toggle}><a href="https://wa.me/23407034534697" target="_blank" rel="noreferrer">Hire me &#8663;</a> </button>
+            <button className='hire-button' id='hire-button'><a href="https://wa.me/23407034534697" target="_blank" rel="noreferrer">Hire me &#8663;</a> </button>
           </div>
-          <div className="about-box" id='pix-box' data-aos="flip-left">
+          <div className="about-box" id='pix-box' data-aos="">
             <img src={emf} alt="profile-pix" className='profile-pix' />
           </div>
 

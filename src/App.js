@@ -3,6 +3,7 @@ import "aos/dist/aos.css"
 
 import About from './components/pages/about'
 import Aos from 'aos'
+import Carous from './components/pages/carousel'
 import Contact from './components/pages/contact'
 import ContactLinks from './components/pages/contact-links'
 import Footer from './components/pages/footer'
@@ -10,6 +11,7 @@ import Navigation from './components/pages/navigation'
 import Project from './components/pages/project'
 import React from 'react'
 import Skill from './components/pages/skill'
+import TypewriterComponent from './components/pages/typewriter'
 import { useEffect } from 'react'
 
 const App = () => {
@@ -28,10 +30,12 @@ const App = () => {
       <div className='pages'>
 
         <About />
+
         <Skill />
         <Project/>
         <Contact />
         <ContactLinks />
+
       </div>
       <Footer
         text="&copy; All rights reserved &nbsp;EMF &nbsp;"

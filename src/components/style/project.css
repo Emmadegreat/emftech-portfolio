@@ -59,6 +59,12 @@
     background-color: #fff;
     border-radius: 0.6rem;
 }
+
+.carousel-cont{
+    width: 25%;
+    margin: auto;
+}
+
 @media (max-width:768px){
     .project-odd{
         display: flex;
@@ -78,6 +84,10 @@
         padding: 1rem;
         order: 1;
     }
+    .carousel-cont{
+        width: 50%;
+        margin: auto;
+    }
 
 }
 @media screen and (max-width:500px){
@@ -91,6 +101,10 @@
     .project span{
         color: rgb(119, 178, 220);
         font-size: 6rem;
+    }
+    .carousel-cont{
+        width: 90%;
+        margin: auto;
     }
 
 }
