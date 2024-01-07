@@ -26,7 +26,7 @@ const About = () => {
         <TypeAnimation
           sequence={['Hi,', 1000, 'I am', 1000, 'Emmanuel Mkpurunchi', 1000, 'Web Developer', 1000,]}
 
-          style={{ fontSize: '2.2rem', lineHeight:"1.2" }}
+          style={{ fontSize: '2.2rem', lineHeight: "1.2", color:"#d4d8dd" }}
           repeat={Infinity}
           speed={20}
           wrapper='h1'
@@ -55,7 +55,7 @@ const About = () => {
             <p>
               I am a self motivated web developer and tech enthusiast, with expertise in
               developing designs into fully functionl websites. <br />
-              My stack covers HTML5, CSS3, JavaScript, SaSS, React JS, Bootstrap, and WordPress.
+              My stack covers HTML5, CSS3, Tailwind CSS, JavaScript, SaSS, React JS, Bootstrap, and WordPress.
               I also build your website and web application to mobile responsive. <br /> I am a team
               player and like collaborating with a team of like mind. I enjoy learning new skills
               and self development in order to attain execellence. Delivering quality service and

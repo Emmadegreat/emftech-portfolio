@@ -1,16 +1,17 @@
 .footer{
     height: 100px;
-    background: #1d3044;
+    background: #222831;
     padding: 3rem;
     display: flex;
     align-items: center;
+    border-top: 1px solid #d4d8dd;
     text-align: center;
     justify-content: center;
-    color: #fff;
+    color: #d4d8dd;
 }
 .scroll{
     margin-right: 5rem;
-    color: #fff;
+    color: #d4d8dd;
     font-size: 2rem;
 
 }

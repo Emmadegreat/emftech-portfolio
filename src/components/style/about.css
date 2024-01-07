@@ -1,13 +1,13 @@
 .about{
     padding: 5rem 1.5rem;
-    background-color: rgb(41, 39, 39);
+    background-color: #222831;
 }
 .about-container{
     display: flex;
     padding-top: 2rem;
     flex-direction: row;
     justify-content: space-around;
-    color: #fff;
+    color: #d4d8dd;
 }
 .about-box{
     flex-basis: 44%;
@@ -55,21 +55,21 @@
     text-align: center;
     border-width: 0rem  ;
     font-size: 1.4rem;
-    color: rgb(41, 39, 39);
+    color: #d4d8dd;
     box-shadow: 3px 3px 5px rgb(119, 178, 220);;
 }
 #name .hire-button:hover{
     background: rgb(119, 178, 220);
-    color: #fff;
+    color: #d4d8dd;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 #name .hire-button a{
-    color: rgb(41, 39, 39);
+    color: #222831;
     text-decoration: none;
 }
 #name .hire-button a:hover{
-    color: #fff;
+    color: #d4d8dd;
 }
 @media screen and (max-width:880px){
     .profile-pix{
@@ -120,7 +120,7 @@
 }
 /*============hire-modal==============*/
 .hire-me-modal{
-    background: rgb(132, 117, 117);
+    background: #222831;
     width: 100%;
     height: 100%;
     max-width: 350px;

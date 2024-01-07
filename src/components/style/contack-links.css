@@ -1,5 +1,5 @@
 .contact-links{
-    background-color: rgb(41, 39, 39);
+    background-color: #222832;
     padding: 5rem 1.5rem;
 }
 .logo-1{
@@ -44,7 +44,7 @@
     text-transform: capitalize;
 }
 .footer-links .social-links li a:hover{
-    color: #fff;
+    color: #d4d8dd;
     text-transform: capitalize;
 }
 
@@ -65,7 +65,7 @@
 .footer-menu ul li a{
     display: inline;
     text-decoration: none;
-    color: #fdf3f2;
+    color: #d4d8dd;
     font-size: 1.1rem;
     text-transform: capitalize;
 

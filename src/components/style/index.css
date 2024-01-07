@@ -9,11 +9,11 @@
     box-sizing: border-box;
 }
 .body{
-    background: rgb(41, 39, 39);
+    background: #222831;
 }
 .pages{
     padding-top: 0rem 6rem 6rem 6rem;
-    background: rgb(41, 39, 39);
+    background: #222831;
 }
 /*.hero-section{
     background-color: var(--overlay);
