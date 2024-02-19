@@ -21,7 +21,7 @@
 
 @media screen and (max-width:768px){
     .skill-wrapper{
-        margin: 1.2rem;
+        margin: 0.8rem;
     }
     .skill-wrapper>div img{
         width: 80px;
@@ -39,7 +39,7 @@
 }
 @media screen and (max-width:425px){
     .skill-wrapper>div img{
-        width: 40px;
+        width: 50px;
         height: auto;
     }
 
