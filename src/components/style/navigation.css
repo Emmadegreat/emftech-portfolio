@@ -68,7 +68,7 @@
         justify-content: left;
         align-items: left;
         left: -100%;
-        background-color: rgb(41, 39, 39);
+        background-color: #222831;
         top: 72px;
         z-index: 1000;
         padding: 1.5rem 0.8rem;
@@ -83,7 +83,7 @@
     .nav-bar .nav-menu .nav-item{
         padding: 1rem;
         /*margin: auto;*/
-        color: rgb(41, 39, 39);
+        color: #222831;
     }
     .nav-bar .nav-menu .nav-item a{
         color: #fff;
