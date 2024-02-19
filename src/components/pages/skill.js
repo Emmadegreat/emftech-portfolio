@@ -9,6 +9,7 @@ import cv from '../images/EMMANUEL FRIDAY MKPURUNCHI-LATEST-CV.pdf'
 import html from '../images/1200px-HTML5_logo.png'
 import js from '../images/JavaScript-Logo.png'
 import react from '../images/react-js-logo.png'
+import tailwindcss from '../images/tailwindcss.png'
 import { useEffect } from 'react'
 
 //import { Link } from 'react-router-dom'
@@ -28,6 +29,9 @@ const Skill = () => {
                 </div>
                 <div>
                   <img src={ css } alt="css3-logo" />
+                </div>
+                <div>
+                  <img src={ tailwindcss } alt="tailwind-css-logo" />
                 </div>
                 <div>
                   <img src={ html } alt="html5-logo" />
