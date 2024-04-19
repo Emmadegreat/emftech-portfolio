@@ -23,17 +23,17 @@ const Navigation = () => {
                         <HashLink smooth to='/' onClick={ closeMenu }>
                           <img src={emf} alt="img" width={50} height={50} />
                         </HashLink>
-                  </div>
-                  <div className="my-number">
-                      <p>&#128222; +2347034534697</p>
-                  </div>
-                  <div className="hamburger" onClick={handleClick}>
-                      {click ? (<FaTimes size={25} style={{ color: '#fff' }} />) :
-                        (<FaBars size={25} style={ {color:'#fff'}} />)
-                      }
-                  </div>
+                    </div>
+                    <div className="my-number">
+                        <p>&#128222; +2347034534697</p>
+                    </div>
+                    <div className="hamburger" onClick={handleClick}>
+                        {click ? (<FaTimes size={25} style={{ color: '#fff' }} />) :
+                            (<FaBars size={25} style={ {color:'#fff'}} />)
+                        }
+                    </div>
 
-                  <ul className={click ? ("nav-menu active") : ("nav-menu")}>
+                    <ul className={click ? ("nav-menu active") : ("nav-menu")}>
                         <li className="nav-item">
                             <HashLink
                                 to='#about'
@@ -87,7 +87,7 @@ const Navigation = () => {
                                 contact
                             </HashLink>
                         </li>
-                  </ul>
+                    </ul>
                 </nav>
             </BrowserRouter>
 

@@ -48,6 +48,24 @@ const Project = () => {
             >
 
               <div>
+                <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1713261221/logo_pfhdce.png" alt="SwiftMart" style={{height:"350px"}}/>
+                <div>
+                  <p style={{ color: "#fff", paddingTop: "1.3rem" }}>
+                    A food items bulk purchase website for Swifttalk Limited to help streamline the
+                    process and remove the hassels involved in the manual process.
+                  </p>
+                  <div style={{display:"flex",justifyContent:"center",paddingTop:"0.5rem"}}>
+                    <a href="https://swiftmart.up.railway.app/">
+                      {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
+                    </a> |
+                    <a href="https://github.com/Emmadegreat/swift/" target='_blank'>
+                      {<FaGithubSquare size={20} style={{ color: "#fff", marginLeft: "0.5rem"}} />}
+                    </a>
+                  </div>
+                </div>
+          </div>
+
+              <div>
                 <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1704380769/mdis_jbrm7n.png" alt="MDI School" style={{height:"350px"}}/>
                 <div>
                   <p style={{ color: "#fff", paddingTop: "1.3rem" }}>
