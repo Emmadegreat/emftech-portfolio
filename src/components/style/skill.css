@@ -39,7 +39,7 @@
 }
 @media screen and (max-width:425px){
     .skill-wrapper>div img{
-        width: 30px;
+        width: 40px;
         height: auto;
     }
 
