@@ -74,16 +74,18 @@
         padding: 1.5rem 0.8rem;
         flex-direction: column;
         text-align: left;
-        transition: 0.4s ease;
-    }
+        transition: 0.8s all ease;
+        -webkit-transition: 0.8s all ease;
+        -moz-transition: 0.8s all ease;
+        -ms-transition: 0.8s all ease;
+        -o-transition: 0.8s all ease;
+}
     .nav-menu.active{
         left: 0;
     }
 
     .nav-bar .nav-menu .nav-item{
         padding: 1rem;
-        /*margin: auto;*/
-        color: #222831;
     }
     .nav-bar .nav-menu .nav-item a{
         color: #fff;
