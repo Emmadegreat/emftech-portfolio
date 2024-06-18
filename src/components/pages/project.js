@@ -104,7 +104,7 @@ const Project = () => {
                   <p style={{color:"#fff",paddingTop:"1.3rem"}}>I cloned the CWW TECH AFRICA (CTA) website using React JS and SASS.</p>
 
                   <div style={{display:"flex",justifyContent:"center",paddingTop:"0.5rem"}}>
-                    <a href="https://cta-site.vercel.app/">
+                    <a href="https://cta-site.vercel.app/" target='_blank' rel="noreferrer">
                       {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
                     </a> |
                     <a href="https://github.com/Emmadegreat/CTA-site" target='_blank' rel="noreferrer">
@@ -142,7 +142,7 @@ const Project = () => {
                   </p>
 
                   <div style={{display:"flex",justifyContent:"center",paddingTop:"0.5rem"}}>
-                    <a href="https://emmadegreat.github.io/st-anthony-site/">
+                    <a href="https://emmadegreat.github.io/st-anthony-site/" target='_blank' rel="noreferrer">
                       {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
                     </a> |
                     <a href="https://github.com/Emmadegreat/st-anthony-site" target='_blank' rel="noreferrer">
