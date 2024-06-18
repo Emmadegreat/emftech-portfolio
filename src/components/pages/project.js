@@ -55,10 +55,10 @@ const Project = () => {
                     process and remove the hassels involved in the manual process.
                   </p>
                   <div style={{display:"flex",justifyContent:"center",paddingTop:"0.5rem"}}>
-                    <a href="https://swiftmart.up.railway.app/">
+                    <a href="https://swiftmart.up.railway.app/" target='_blank' rel="noreferrer">
                       {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
                     </a> |
-                    <a href="https://github.com/Emmadegreat/swift/" target='_blank'>
+                    <a href="https://github.com/Emmadegreat/swift/" target='_blank' rel="noreferrer">
                       {<FaGithubSquare size={20} style={{ color: "#fff", marginLeft: "0.5rem"}} />}
                     </a>
                   </div>
@@ -72,10 +72,10 @@ const Project = () => {
                     A school website developed for Mabel Divine International Schools.
                   </p>
                   <div style={{display:"flex",justifyContent:"center",paddingTop:"0.5rem"}}>
-                    <a href="https://mabeldivineinternationalschools.com.ng/">
+                    <a href="https://mabeldivineinternationalschools.com.ng/" target='_blank' rel="noreferrer">
                       {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
                     </a> |
-                    <a href="https://github.com/Emmadegreat/mabel-divine-international-school" target='_blank'>
+                    <a href="https://github.com/Emmadegreat/mabel-divine-international-school" target='_blank' rel="noreferrer">
                       {<FaGithubSquare size={20} style={{ color: "#fff", marginLeft: "0.5rem"}} />}
                     </a>
                   </div>
@@ -88,7 +88,7 @@ const Project = () => {
                   <p style={{color:"#fff",paddingTop:"1.3rem"}}>An e-commerce website, built with React JS and CSS..</p>
 
                   <div style={{display:"flex",justifyContent:"center",paddingTop:"0.5rem"}}>
-                    <a href="https://e-store-blush.vercel.app/">
+                    <a href="https://e-store-blush.vercel.app/" target='_blank' rel="noreferrer">
                       {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
                     </a> |
                     <a href="https://github.com/Emmadegreat/mystore" target='_blank' rel="noreferrer">
@@ -107,7 +107,7 @@ const Project = () => {
                     <a href="https://cta-site.vercel.app/">
                       {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
                     </a> |
-                    <a href="https://github.com/Emmadegreat/CTA-site" target='_blank'>
+                    <a href="https://github.com/Emmadegreat/CTA-site" target='_blank' rel="noreferrer">
                       {<FaGithubSquare size={20} style={{ color: "#fff", marginLeft: "0.5rem"}} />}
                     </a>
                   </div>
@@ -145,7 +145,7 @@ const Project = () => {
                     <a href="https://emmadegreat.github.io/st-anthony-site/">
                       {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
                     </a> |
-                    <a href="https://github.com/Emmadegreat/st-anthony-site" target='_blank'>
+                    <a href="https://github.com/Emmadegreat/st-anthony-site" target='_blank' rel="noreferrer">
                       {<FaGithubSquare size={20} style={{ color: "#fff", marginLeft: "0.5rem"}} />}
                     </a>
                   </div>
