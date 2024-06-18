@@ -63,7 +63,7 @@ const Project = () => {
                     </a>
                   </div>
                 </div>
-          </div>
+              </div>
 
               <div>
                 <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1704380769/mdis_jbrm7n.png" alt="MDI School" style={{height:"350px"}}/>
@@ -91,7 +91,7 @@ const Project = () => {
                     <a href="https://e-store-blush.vercel.app/">
                       {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
                     </a> |
-                    <a href="https://github.com/Emmadegreat/mystore" target='_blank'>
+                    <a href="https://github.com/Emmadegreat/mystore" target='_blank' rel="noreferrer">
                       {<FaGithubSquare size={20} style={{ color: "#fff", marginLeft: "0.5rem"}} />}
                     </a>
                   </div>
@@ -112,45 +112,45 @@ const Project = () => {
                     </a>
                   </div>
                 </div>
-            </div>
-
-            <div>
-              <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1704381953/tcc1_bbmvvg.png" alt="TCC website"/>
-              <div>
-                <p style={{ color: "#fff", paddingTop: "1.3rem" }}>
-                  TCC is a civil engineering construction company. This site enables the company to showcase
-                  their competency and easily connect with clients.
-                </p>
-
-                <div style={{display:"flex",justifyContent:"center",paddingTop:"0.5rem"}}>
-                  <a href="https://tcc-peach.vercel.app/">
-                    {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
-                  </a> |
-                  <a href="https://github.com/Emmadegreat/TCC" target='_blank'>
-                    {<FaGithubSquare size={20} style={{ color: "#fff", marginLeft: "0.5rem"}} />}
-                  </a>
-                </div>
               </div>
-            </div>
 
-            <div>
-              <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1704382141/st-anthony1_p6envw.png" alt="St. Anthony website"/>
+              {/*<div>
+                <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1704381953/tcc1_bbmvvg.png" alt="TCC website"/>
+                <div>
+                  <p style={{ color: "#fff", paddingTop: "1.3rem" }}>
+                    TCC is a civil engineering construction company. This site enables the company to showcase
+                    their competency and easily connect with clients.
+                  </p>
+
+                  <div style={{display:"flex",justifyContent:"center",paddingTop:"0.5rem"}}>
+                    <a href="https://tcc-peach.vercel.app/">
+                      {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
+                    </a> |
+                    <a href="https://github.com/Emmadegreat/TCC" target='_blank'>
+                      {<FaGithubSquare size={20} style={{ color: "#fff", marginLeft: "0.5rem"}} />}
+                    </a>
+                  </div>
+                </div>
+              </div>*/}
+
               <div>
-                <p style={{ color: "#fff", paddingTop: "1.3rem" }}>
-                  A church website developed for St. Anthony catholic church,
-                  AIT road Alagbado Lagos state. Need more info about St. Anthony Alagbado, visit their website.
-                </p>
+                <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1704382141/st-anthony1_p6envw.png" alt="St. Anthony website"/>
+                <div>
+                  <p style={{ color: "#fff", paddingTop: "1.3rem" }}>
+                    A church website developed for St. Anthony catholic church,
+                    AIT road Alagbado Lagos state. Need more info about St. Anthony Alagbado, visit their website.
+                  </p>
 
-                <div style={{display:"flex",justifyContent:"center",paddingTop:"0.5rem"}}>
-                  <a href="https://emmadegreat.github.io/st-anthony-site/">
-                    {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
-                  </a> |
-                  <a href="https://github.com/Emmadegreat/st-anthony-site" target='_blank'>
-                    {<FaGithubSquare size={20} style={{ color: "#fff", marginLeft: "0.5rem"}} />}
-                  </a>
-                </div>
-                </div>
-            </div>
+                  <div style={{display:"flex",justifyContent:"center",paddingTop:"0.5rem"}}>
+                    <a href="https://emmadegreat.github.io/st-anthony-site/">
+                      {<FaLink size={20} style={{ color: "#fff", marginRight: "0.5rem"}} />}
+                    </a> |
+                    <a href="https://github.com/Emmadegreat/st-anthony-site" target='_blank'>
+                      {<FaGithubSquare size={20} style={{ color: "#fff", marginLeft: "0.5rem"}} />}
+                    </a>
+                  </div>
+                  </div>
+              </div>
 
             </Carousel>
           </div>
