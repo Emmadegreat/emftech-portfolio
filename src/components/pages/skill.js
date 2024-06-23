@@ -17,11 +17,11 @@ import { useEffect } from 'react'
 const Skill = () => {
   useEffect(() => {
     Aos.init();
-    Aos.refresh({duration:4000});
+    Aos.refresh({duration:3000});
   }, [])
   return (
       <>
-        <section className="skill" id="skill" data-aos="flip-down">
+        <section className="skill" id="skill" data-aos="zoom-out">
             <h1>My Skills</h1>
             <section className="skill-wrapper">
                 <div>
