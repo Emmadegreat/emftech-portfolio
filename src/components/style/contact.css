@@ -1,6 +1,6 @@
 .contact{
     background: #d4d8dd;
-    padding: 1rem 1.5rem 6rem 1.5rem;
+    padding: 1rem 3.5rem 6rem 3.5rem;
 }
 .contact-card{
     background: #222831;
@@ -39,11 +39,14 @@
     box-shadow: 5px 4px 5px #787878;
     color: #fff;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
+    .contact{
+        padding: 1rem 1.5rem 4rem 1.5rem;
+    }
     .contact-card p{
         font-weight: 500;
-        font-size: 2rem;
-        text-align: justify;
+        font-size: 1.8rem;
+        text-align: start;
     }
     .contact-button{
         width: 200px;

@@ -38,7 +38,7 @@ const App = () => {
 
       </div>
       <Footer
-        text="&copy; All rights reserved &nbsp;EMF &nbsp;"
+        text="&copy; All Rights Reserved &nbsp;EMF &nbsp;"
         year={ new Date().getFullYear()}
 
       />

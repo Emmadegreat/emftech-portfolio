@@ -73,12 +73,14 @@ const ContactLinks = () => {
                                     >
                                         contact
                                     </HashLink>
-                            </li>
-                        </ul>
-                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </BrowserRouter>
+
                 </div>
 
+                <hr />
             </section>
 
         </>

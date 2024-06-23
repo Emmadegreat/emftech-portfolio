@@ -1,25 +1,24 @@
 .about{
-    padding: 5rem 1.5rem;
+    padding: 5rem 3.5rem;
     background-color: #222831;
 }
 .about-container{
     display: flex;
     padding-top: 2rem;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #d4d8dd;
 }
 .about-box{
     flex-basis: 44%;
-    padding: 0rem 2rem 2rem 2rem;
+    padding: 0rem 0rem 2rem 0rem;
     text-align:justify;
 }
-#pix-box{
+/*#pix-box{
     display: flex;
     flex-direction: column;
     align-items: center;
 
-}
+}*/
 .profile-pix{
     max-width: 450px;
     width: 100%;
@@ -28,7 +27,7 @@
     border-top-right-radius: 20%;
 }
 .profile-pix:hover{
-    transform: translateY(-30px);
+    /*transform: translateY(-30px);*/
     transition: 0.5s ease-in-out;
     border-bottom-right-radius: 20%;
     border-top-left-radius: 20%;
@@ -81,30 +80,38 @@
         border-top-right-radius: 20%;
     }
     .about-box{
-        padding: 1rem;
+        padding: 0rem;
     }
 }
 @media screen and (max-width:768px){
+    .about{
+        padding: 5rem 1.5rem;
+    }
     .about-container{
         display: flex;
         flex-direction: column;
     }
     #pix-box{
         order: 1;
+        margin: auto;
     }
     #name{
         order: 2;
+        margin-top: 1.5rem;
     }
     #name p{
         font-size: 1.1rem;
         line-height: 1.5;
-        text-align: start;
+        text-align: justify;
     }
     .profile-pix{
-        max-width: 300px;
         width: 100%;
         height: auto;
-        border-radius: 50%;
+        border-radius: 20%;
+    }
+
+    .profile-pix:hover{
+        border-radius: 20%;
     }
 }
 @media screen and (max-width:500px){
@@ -112,7 +119,6 @@
         font-size: 2rem;
     }
     .profile-pix{
-        max-width: 250px;
         width: 100%;
         height: auto;
         margin-top: 0rem;

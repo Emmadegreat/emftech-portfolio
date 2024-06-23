@@ -5,6 +5,7 @@ import React, {useState} from 'react'
 
 import Aos from 'aos'
 import { TypeAnimation } from 'react-type-animation'
+import cv from '../images/EMMANUEL_MKPURUNCHI_RESUME.pdf'
 import emf from '../images/my-profile-pix.jpg'
 import { useEffect } from 'react'
 
@@ -54,19 +55,20 @@ const About = () => {
 
             <p>
               I am a self motivated web developer and tech enthusiast, with expertise in
-              developing designs into fully functionl websites. <br />
+              developing designs into fully functionl websites.
               My stack covers HTML5, CSS3, Tailwind CSS, JavaScript, SaSS, React JS, Bootstrap, WordPress, and Django.
-              I also build your website and web application to mobile responsive. <br /> I am a team
+              I also build your website and web application to mobile responsive.  I am a team
               player and like collaborating with a team of like mind. I enjoy learning new skills
               and self development in order to attain execellence. Delivering quality service and
-              client's satisfaction is my utmost concern.<br />
+              client's satisfaction is my utmost concern.
               I have also received numerous hands-on training as regarding web development
               and software engineering in general, which includes but not limited to: Ingressive4Good X
-              Zuri training 2022 (frontend/Node Js), CWW Tech Africa cohort 2022 (frontend). <br />
+              Zuri training 2022 (frontend/Node Js), CWW Tech Africa cohort 2022 (frontend).
               With my experience in web development, I have been able to carry out the following projects
               which can be seen in the project section of this site.
             </p>
-            <button className='hire-button' id='hire-button'><a href="https://wa.me/23407034534697" target="_blank" rel="noreferrer">Hire me &#8663;</a> </button>
+            <button className='hire-button' id='hire-button'><a href={cv} target="_blank" rel="noreferrer">View CV &#8663;</a> </button>
+            {/*<button className='hire-button' id='hire-button'><a href="https://wa.me/23407034534697" target="_blank" rel="noreferrer">Hire me &#8663;</a> </button>*/}
           </div>
           <div className="about-box" id='pix-box' data-aos="">
             <img src={emf} alt="profile-pix" className='profile-pix' />
