@@ -51,7 +51,7 @@ const About = () => {
 
 
         <div className="about-container">
-          <div className="about-box" id='name' data-aos="">
+          <div className="about-box" id='name'>
 
             <p>
               I am a self motivated web developer and tech enthusiast, with expertise in
