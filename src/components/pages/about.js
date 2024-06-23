@@ -70,7 +70,7 @@ const About = () => {
             <button className='hire-button' id='hire-button'><a href={cv} target="_blank" rel="noreferrer">View CV &#8663;</a> </button>
             {/*<button className='hire-button' id='hire-button'><a href="https://wa.me/23407034534697" target="_blank" rel="noreferrer">Hire me &#8663;</a> </button>*/}
           </div>
-          <div className="about-box" id='pix-box' data-aos="">
+          <div className="about-box" id='pix-box'>
             <img src={emf} alt="profile-pix" className='profile-pix' />
           </div>
 
