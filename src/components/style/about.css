@@ -13,12 +13,7 @@
     padding: 0rem 0rem 2rem 0rem;
     text-align:justify;
 }
-/*#pix-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}*/
 .profile-pix{
     max-width: 450px;
     width: 100%;
@@ -27,19 +22,16 @@
     border-top-right-radius: 20%;
 }
 .profile-pix:hover{
-    /*transform: translateY(-30px);*/
     transition: 0.5s ease-in-out;
     border-bottom-right-radius: 20%;
     border-top-left-radius: 20%;
     border-bottom-left-radius: 0%;
     border-top-right-radius: 0%;
 }
-.about h1{
+.namedisplay h1{
     font-size: 2.5rem;
-    padding-bottom: 1.5rem;
-    line-height: 1.2;
     text-align: center;
-    color: #fff;
+    margin: 1.2rem 0rem;
 }
 #name p{
     font-size: 1.1rem;
@@ -85,7 +77,8 @@
 }
 @media screen and (max-width:768px){
     .about{
-        padding: 5rem 1.5rem;
+        padding: 2rem 1.5rem 1rem 1.5rem;
+        margin-top: 3rem;
     }
     .about-container{
         display: flex;
@@ -115,13 +108,13 @@
     }
 }
 @media screen and (max-width:500px){
-    .about h1{
-        font-size: 2rem;
+    .namedisplay h1{
+        font-size: 1.5rem;
+        margin: 1.2rem 0rem 0rem 0rem;
     }
     .profile-pix{
         width: 100%;
         height: auto;
-        margin-top: 0rem;
     }
 }
 /*============hire-modal==============*/
