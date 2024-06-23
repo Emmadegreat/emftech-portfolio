@@ -1,13 +1,13 @@
 .skill{
     background: #d4d8dd;
-    padding: 7rem 3.5rem;
+    padding: 4rem 3.5rem;
     display: flex;
     flex-direction: column;
 }
 .skill h1{
     font-size: 4rem;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 .skill-wrapper{
     padding-top: 2rem;
