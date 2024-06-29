@@ -5,7 +5,7 @@
     align-items: center;
     height: 80px;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     padding: 0rem 3.5rem;
     background-color: #222831;
     color: #d4d8dd;
@@ -79,7 +79,7 @@
         -moz-transition: 0.8s all ease;
         -ms-transition: 0.8s all ease;
         -o-transition: 0.8s all ease;
-}
+    }
     .nav-menu.active{
         left: 0;
     }

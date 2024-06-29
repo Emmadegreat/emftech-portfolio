@@ -1,4 +1,4 @@
-import './components/style/index.css'
+import './assets/style/index.css'
 import "aos/dist/aos.css"
 
 import About from './components/pages/about'
@@ -10,7 +10,7 @@ import Footer from './components/pages/footer'
 import Navigation from './components/pages/navigation'
 import Project from './components/pages/project'
 import React from 'react'
-import Skill from './components/pages/skill'
+import Skills from './components/pages/skills'
 import TypewriterComponent from './components/pages/typewriter'
 import { useEffect } from 'react'
 
@@ -31,7 +31,7 @@ const App = () => {
 
         <About />
 
-        <Skill />
+        <Skills />
         <Project/>
         <Contact />
         <ContactLinks />

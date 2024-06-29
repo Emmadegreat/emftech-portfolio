@@ -1,4 +1,4 @@
-import '../style/skill.css'
+import '../../assets/style/skills.css'
 import "aos/dist/aos.css"
 
 import React, {useEffect} from 'react'
@@ -6,7 +6,7 @@ import React, {useEffect} from 'react'
 import Aos from 'aos'
 import { data } from '../data'
 
-const Skill = () => {
+const Skills = () => {
   useEffect(() => {
     Aos.init();
     Aos.refresh({duration:3000});
@@ -34,4 +34,4 @@ const Skill = () => {
   )
 }
 
-export default Skill
+export default Skills

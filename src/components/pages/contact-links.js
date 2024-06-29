@@ -1,11 +1,11 @@
-import '../style/contack-links.css'
+import '../../assets/style/contack-links.css'
 
 import { FaFacebookSquare, FaGithubSquare, FaLinkedinIn, FaTwitterSquare } from 'react-icons/fa'
 
 import {BrowserRouter} from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import React from 'react'
-import logo from '../images/mylogo (1).png'
+import logo from '../../assets/images/mylogo (1).png'
 
 const ContactLinks = () => {
     return(

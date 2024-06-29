@@ -1,12 +1,12 @@
-import '../style/about.css'
+import '../../assets/style/about.css'
 import "aos/dist/aos.css"
 
 import React, {useState} from 'react'
 
 import Aos from 'aos'
 import { TypeAnimation } from 'react-type-animation'
-import cv from '../images/EMMANUEL_MKPURUNCHI_RESUME.pdf'
-import emf from '../images/my-profile-pix.jpg'
+import cv from '../../assets/images/EMMANUEL_MKPURUNCHI_RESUME.pdf'
+import emf from '../../assets/images/my-profile-pix.jpg'
 import { useEffect } from 'react'
 
 const About = () => {

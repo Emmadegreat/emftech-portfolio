@@ -1,11 +1,11 @@
-import '../style/navigation.css'
+import '../../assets/style/navigation.css'
 
 import { FaBars, FaTimes } from 'react-icons/fa'
 import React, { useState } from 'react'
 
 import { BrowserRouter } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
-import emf from '../images/mylogo (1).png'
+import emf from '../../assets/images/mylogo (1).png'
 
 //import { animateScroll as scroll } from 'react-scroll'
 
