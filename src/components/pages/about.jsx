@@ -4,6 +4,7 @@ import "aos/dist/aos.css"
 import React, {useState} from 'react'
 
 import Aos from 'aos'
+import { Img } from '../img'
 import { TypeAnimation } from 'react-type-animation'
 import cv from '../../assets/images/EMMANUEL_MKPURUNCHI_RESUME.pdf'
 import emf from '../../assets/images/my-profile-pix.jpg'
@@ -74,7 +75,12 @@ const About = () => {
           </div>
 
           <div className="about-box" id='pix-box'>
-            <img src={emf} alt="profile-pix" className='profile-pix' />
+            <Img
+              src={emf}
+              alt="profile"
+              className="profile-pix"
+            />
+
           </div>
 
           {/*click &&
@@ -85,6 +91,9 @@ const About = () => {
               </div>
           </div>
           */}
+        </div>
+        <div>
+
         </div>
       </section>
 

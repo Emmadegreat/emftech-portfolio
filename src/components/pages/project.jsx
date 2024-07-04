@@ -1,16 +1,20 @@
 import '../../assets/style/project.css'
 import "aos/dist/aos.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import {projects} from "../data"
-import { FaGithubSquare, FaLink } from 'react-icons/fa'
-import { useEffect} from 'react'
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { FaGithubSquare, FaLink } from 'react-icons/fa'
+
 import Aos from 'aos'
-//import { Carousel } from 'react-responsive-carousel';
+import { Img } from '../img';
 import React from 'react'
+import Slider from "react-slick";
+import {projects} from "../data"
+import { useEffect } from 'react'
+
+//import { Carousel } from 'react-responsive-carousel';
+
 
 
 const Project = () => {
@@ -48,7 +52,7 @@ const Project = () => {
           {
             projects.map(({name, imgurl, link, github, text, id}) => (
               <div key={id} className='slider-cont'>
-                <img src={imgurl} alt={name} />
+                <Img src={imgurl} alt={name} className="project-images" />
                 <div>
                   <p>{text}</p>
                   <div className="links-cont">
