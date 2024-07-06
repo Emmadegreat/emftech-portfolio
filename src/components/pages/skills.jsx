@@ -4,7 +4,7 @@ import "aos/dist/aos.css"
 import React, {useEffect} from 'react'
 
 import Aos from 'aos'
-import { data } from '../data'
+import { SkillData } from '../data'
 
 const Skills = () => {
   useEffect(() => {
@@ -20,7 +20,7 @@ const Skills = () => {
           </div>
           <div className="skill-wrapper">
 
-            {data.map(({name, url, id}) => (
+            {SkillData.map(({name, url, id}) => (
               <div key={id}>
                 <img src={ url } alt={name} />
               </div>

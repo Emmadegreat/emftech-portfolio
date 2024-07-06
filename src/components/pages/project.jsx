@@ -10,7 +10,7 @@ import Aos from 'aos'
 import { Img } from '../img';
 import React from 'react'
 import Slider from "react-slick";
-import {projects} from "../data"
+import {projectsData} from "../data"
 import { useEffect } from 'react'
 
 //import { Carousel } from 'react-responsive-carousel';
@@ -50,7 +50,7 @@ const Project = () => {
         <Slider {...settings}>
 
           {
-            projects.map(({name, imgurl, link, github, text, id}) => (
+            projectsData.map(({name, imgurl, link, github, text, id}) => (
               <div key={id} className='slider-cont'>
                 <Img src={imgurl} alt={name} className="project-images" />
                 <div>

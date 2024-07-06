@@ -1,5 +1,5 @@
 
-export const data = [
+export const skillData = [
 
     { name: 'html', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719528061/general/html_1_v8bzjf.png' },
     { name: 'css', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719528061/general/css_muevuw.png' },
@@ -16,7 +16,7 @@ export const data = [
 ];
 
 
-export const projects = [
+export const projectsData = [
     {
         name:   'swiftmart',
         imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669014/general/project-images_ydogrm.png',
