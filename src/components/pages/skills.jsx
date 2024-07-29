@@ -13,8 +13,8 @@ const Skills = () => {
   }, [])
   return (
       <>
-        <section className="skill" data-aos="zoom-out" id="skill">{/*=zoom-out=*/}
-          <div className='skill-header'>
+        <section className="skill" data-aos="zoom-out">{/*=zoom-out=*/}
+          <div className='skill-header' id="skill">
             <h2>My Skills </h2>
             <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1719525381/general/dot-removebg-preview_wo9xco.png" alt="" />
           </div>
