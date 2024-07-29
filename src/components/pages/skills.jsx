@@ -4,7 +4,7 @@ import "aos/dist/aos.css"
 import React, {useEffect} from 'react'
 
 import Aos from 'aos'
-import { SkillData } from '../data'
+import { skillData } from '../data'
 
 const Skills = () => {
   useEffect(() => {
@@ -13,14 +13,14 @@ const Skills = () => {
   }, [])
   return (
       <>
-        <section className="skill" data-aos="zoom-out">{/*=zoom-out=*/}
-          <div className='skill-header' id="skill">
+        <section className="skill" data-aos="zoom-out" id="skill">{/*=zoom-out=*/}
+          <div className='skill-header'>
             <h2>My Skills </h2>
             <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1719525381/general/dot-removebg-preview_wo9xco.png" alt="" />
           </div>
           <div className="skill-wrapper">
 
-            {SkillData.map(({name, url, id}) => (
+            {skillData.map(({name, url, id}) => (
               <div key={id}>
                 <img src={ url } alt={name} />
               </div>
