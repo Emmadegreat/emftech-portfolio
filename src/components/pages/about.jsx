@@ -6,7 +6,7 @@ import React, {useState} from 'react'
 import Aos from 'aos'
 import { Img } from '../img'
 import { TypeAnimation } from 'react-type-animation'
-import cv from '../../assets/images/EMMANUEL_MKPURUNCHI_RESUME.pdf'
+import cv from '../../assets/images/EMMANUEL-MKPURUNCHI-main.pdf'
 import emf from '../../assets/images/my-profile-pix.jpg'
 import { useEffect } from 'react'
 
