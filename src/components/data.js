@@ -17,14 +17,6 @@ export const skillData = [
 
 
 export const projectsData = [
-    {
-        name:   'swiftmart',
-        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669014/general/project-images_ydogrm.png',
-        link:   'https://swiftmart.up.railway.app/',
-        github: 'https://github.com/Emmadegreat/swift/',
-        text:   'A food items bulk purchase website for Swifttalk Limited to help streamline the \
-                    process and remove the hassels involved in the manual process.',
-    },
 
     {
         name:   'mdis',
@@ -41,6 +33,23 @@ export const projectsData = [
         text:   'An e-commerce website, built with React JS and CSS.'
     },
     {
+        name:   'cta',
+        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669657/general/project-images_4_hh2mqz.png',
+        link: 'https://cta-site.vercel.app/',
+        github: 'https://github.com/Emmadegreat/CTA-site',
+        text: 'I cloned the CWW TECH AFRICA (CTA) website using React JS and SASS.',
+
+    },
+
+    {
+        name:   'bnck',
+        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1726508861/general/bnck_auqkz8.png',
+        link: 'https://bishopnkwoagucollegekpirikpiri.com.ng/',
+        github: 'https://github.com/Emmadegreat/bishop-nkwoagu-college',
+        text: 'A corporated website developed for Bishop Nkwoagu College Kpirikpiri, Abakaliki, Nigeria.',
+
+    },
+    {
         name:   'st.anthony',
         imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669495/general/project-images_3_ygg0um.png',
         link:   'https://emmadegreat.github.io/st-anthony-site/',
@@ -55,6 +64,23 @@ export const projectsData = [
         github: 'https://github.com/Emmadegreat/CTA-site',
         text: 'I cloned the CWW TECH AFRICA (CTA) website using React JS and SASS.',
 
+    },
+
+    {
+        name:   'bnck',
+        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669657/general/project-images_4_hh2mqz.png',
+        link: 'https://bishopnkwoagucollegekpirikpiri.com.ng/',
+        github: 'https://github.com/Emmadegreat/bishop-nkwoagu-college',
+        text: 'A corporated website developed for Bishop Nkwoagu College Kpirikpiri, Abakaliki, Nigeria.',
+
+    },
+    {
+        name:   'swiftmart',
+        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669014/general/project-images_ydogrm.png',
+        link:   'https://swiftmart.up.railway.app/',
+        github: 'https://github.com/Emmadegreat/swift/',
+        text:   'A food items bulk purchase website for Swifttalk Limited to help streamline the \
+                    process and remove the hassels involved in the manual process.',
     },
 
 ]
