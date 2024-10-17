@@ -23,7 +23,7 @@ export const projectsData = [
         imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669168/general/project-images_1_bbfaqu.png',
         link:   'https://mabeldivineinternationalschools.com.ng/',
         github: 'https://github.com/Emmadegreat/mabel-divine-international-school',
-        text:   'A school website developed for Mabel Divine International Schools.',
+        text:   'A school website developed for Mabel Divine International Schools. The website was built with PHP, MySql, CSS, HTML, Bootstrap, JavaScript.',
     },
     {
         name:   'store1',
@@ -56,14 +56,14 @@ export const projectsData = [
         link:   'https://swiftmart.up.railway.app/',
         github: 'https://github.com/Emmadegreat/swift/',
         text:   'A food items bulk purchase website for Swifttalk Limited to help streamline the \
-                    process and remove the hassels involved in the manual process.',
+                    process and remove the hassels involved in the manual process. Built with Django, PostgreSQL, HTML and CSS.',
     },
     {
         name:   'bnck',
         imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1726508861/general/bnck_auqkz8.png',
         link: 'https://bishopnkwoagucollegekpirikpiri.com.ng/',
         github: 'https://github.com/Emmadegreat/bishop-nkwoagu-college',
-        text: 'A corporated website developed for Bishop Nkwoagu College Kpirikpiri, Abakaliki, Nigeria.',
+        text: 'A corporate/portal website developed for Bishop Nkwoagu College Kpirikpiri, Abakaliki, Nigeria. The website was built with PHP, MySql, CSS, HTML, Bootstrap, JavaScript.'
 
     },
     {
