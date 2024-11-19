@@ -28,7 +28,7 @@ const Contact = () => {
         {toggleForm &&
           <div className='email-modal' id='email-modal'>
           <div className="email-content" id='email-content'>
-            <form action="https://formsubmit.co/emf0046@gmail.com" method='post'>
+            <form action="https://formsubmit.co/125b9c4918a98903f77d15d4dc08b02f" method='post'>
               <table>
                 <tr>
                   <td><label htmlFor="name">Name</label></td>
