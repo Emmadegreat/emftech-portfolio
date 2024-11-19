@@ -11,23 +11,20 @@
 .about-box{
     flex-basis: 44%;
     padding: 0rem 0rem 2rem 0rem;
-    text-align:justify;
+    text-align:start;
 }
 
 .profile-pix{
-    /*max-width: 450px;*/
-    width: 100%;
+    /*max-width: 450px;
+    */width: 100%;
     height: auto;
-    border-bottom-left-radius: 20%;
-    border-top-right-radius: 20%;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
 }
-.profile-pix:hover{
-    transition: 0.5s ease-in-out;
-    border-bottom-right-radius: 20%;
-    border-top-left-radius: 20%;
-    border-bottom-left-radius: 0%;
-    border-top-right-radius: 0%;
-}
+
 .namedisplay h1{
     font-size: 2.5rem;
     text-align: center;
