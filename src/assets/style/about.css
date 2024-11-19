@@ -11,7 +11,7 @@
 .about-box{
     flex-basis: 44%;
     padding: 0rem 0rem 2rem 0rem;
-    text-align:start;
+    text-align: justify;
 }
 
 .profile-pix{
