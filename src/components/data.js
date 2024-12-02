@@ -43,6 +43,16 @@ export const projectsData = [
 
 
     {
+        name:   'yksgreen',
+        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669657/general/project-images_4_hh2mqz.png',
+        link: 'https://yeksgreen-eosin.vercel.app/',
+        github: 'https://github.com/Emmadegreat/yeksgreen',
+        text: 'A website showingcasing different food delicacies. Built the UI with React.JS and Tailwind CSS.',
+
+    },
+
+
+    {
         name:   'st.anthony',
         imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669495/general/project-images_3_ygg0um.png',
         link:   'https://emmadegreat.github.io/st-anthony-site/',
