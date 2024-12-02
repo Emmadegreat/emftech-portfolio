@@ -30,7 +30,7 @@ export const projectsData = [
         imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669358/general/project-images_2_qpljck.png',
         link:   'https://e-store-blush.vercel.app/',
         github: 'https://github.com/Emmadegreat/mystore',
-        text:   'An e-commerce website, built with React JS and CSS.'
+        text:   'An e-commerce website, built with React JS and.'
     },
     {
         name:   'cta',
