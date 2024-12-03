@@ -11,7 +11,8 @@ export const skillData = [
     { name: 'wordpress', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719528061/general/wordpress1_srcoub.png' },
     { name: 'github', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719646418/general/github_dzbwza.svg' },
     { name: 'django', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719646418/general/django_ws1il2.svg' },
-    { name: 'postgresql', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719647700/general/postgresql_pawxbr.svg'},
+    { name: 'postgresql', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719647700/general/postgresql_pawxbr.svg' },
+    { name: 'yksgreen', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1733184644/general/Yellow_and_Black_Digital_Marketing_Workshop_Flyer_zijm6g.png' },
 
 ];
 
