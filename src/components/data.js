@@ -12,7 +12,6 @@ export const skillData = [
     { name: 'github', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719646418/general/github_dzbwza.svg' },
     { name: 'django', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719646418/general/django_ws1il2.svg' },
     { name: 'postgresql', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719647700/general/postgresql_pawxbr.svg' },
-    { name: 'yksgreen', url: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1733184644/general/Yellow_and_Black_Digital_Marketing_Workshop_Flyer_zijm6g.png' },
 
 ];
 
@@ -45,7 +44,7 @@ export const projectsData = [
 
     {
         name:   'yksgreen',
-        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1719669657/general/project-images_4_hh2mqz.png',
+        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1733215251/general/yeksgreen1_onelvf.png',
         link: 'https://yeksgreen-eosin.vercel.app/',
         github: 'https://github.com/Emmadegreat/yeksgreen',
         text: 'A website showingcasing different food delicacies. Built the UI with React.JS and Tailwind CSS.',
@@ -71,7 +70,7 @@ export const projectsData = [
     },
     {
         name:   'bnck',
-        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1726508861/general/bnck_auqkz8.png',
+        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1733215881/general/bnck3_frvywi.png',
         link: 'https://bishopnkwoagucollegekpirikpiri.com.ng/',
         github: 'https://github.com/Emmadegreat/bishop-nkwoagu-college',
         text: 'A corporate/portal website developed for Bishop Nkwoagu College Kpirikpiri, Abakaliki, Nigeria. The website was built with PHP, MySql, CSS, HTML, Bootstrap, JavaScript.'
@@ -79,7 +78,7 @@ export const projectsData = [
     },
     {
         name:   'timbu-shop',
-        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1728649356/general/timbu-image_jndy8d.png',
+        imgurl: 'https://res.cloudinary.com/dbnxbly1r/image/upload/v1733217670/general/timbu3_ypyct3.png',
         link: 'https://timbu-shop-nine.vercel.app/',
         github: 'https://timbu-shop-nine.vercel.app/',
         text: 'Developed timbu-shop using frontend technologies like tailwindcss, typescript and react.js.',
