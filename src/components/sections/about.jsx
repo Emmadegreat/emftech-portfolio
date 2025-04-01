@@ -67,7 +67,7 @@ const About = () => {
               I have also received numerous hands-on training as regarding web development
               and software engineering in general, which includes but not limited to: Ingressive4Good X
               Zuri training 2022 (frontend/Node Js), CWW Tech Africa cohort 2022 (frontend), and HNG11 2024
-              intership.
+              internship.
               With my experience in web development, I have been able to carry out the following projects
               which can be seen in the project section of this site.
             </p>
