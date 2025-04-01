@@ -1,4 +1,4 @@
-import '../../assets/style/footer.css'
+import '../assets/style/footer.css'
 
 import React from 'react'
 import ScrollToTop from 'react-scroll-to-top'
