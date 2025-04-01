@@ -66,7 +66,7 @@ export const projectsData = [
         link:   'https://swiftmart.up.railway.app/',
         github: 'https://github.com/Emmadegreat/swift/',
         text:   'A food items bulk purchase website for Swifttalk Limited to help streamline the \
-                    process and remove the hassels involved in the manual process. Built with Django, PostgreSQL, HTML and CSS.',
+                    process and remove the hassels involved in the manual process. Built with Django, PostgreSQL, HTML, CSS, JavaScript, and Bootstrap.',
     },
     {
         name:   'bnck',
