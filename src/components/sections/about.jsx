@@ -7,7 +7,7 @@ import Aos from 'aos'
 import { Img } from '../img'
 import { TypeAnimation } from 'react-type-animation'
 import cv from '../../assets/images/Emmanuel Mkpurunchi CV.pdf'
-import emf from '../../assets/images/my-profile-pix.jpg'
+import emf from "../../assets/images/Emma's pix.jpg"
 import { useEffect } from 'react'
 
 const About = () => {
@@ -66,8 +66,8 @@ const About = () => {
               client's satisfaction is my utmost concern.
               I have also received numerous hands-on training as regarding web development
               and software engineering in general, which includes but not limited to: Ingressive4Good X
-              Zuri training 2022 (frontend/Node Js), CWW Tech Africa cohort 2022 (frontend), and HNG11 2024
-              internship.
+              Zuri training 2022 (Web Development), CWW Tech Africa cohort 2022 (Web Development), and HNG11 2024
+              internship (Frontend Engineer).
               With my experience in web development, I have been able to carry out the following projects
               which can be seen in the project section of this site.
             </p>
