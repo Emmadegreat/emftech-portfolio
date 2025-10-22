@@ -1,15 +1,15 @@
 import './assets/style/index.css'
 import "aos/dist/aos.css"
 
-import About from './components/sections/about'
+import About from './sections/about'
 import Aos from 'aos'
-import Contact from './components/sections/contact'
-import ContactLinks from './components/sections/contact-links'
+import Contact from './sections/contact'
+import ContactLinks from './sections/contact-links'
 import Footer from './components/footer'
 import Navigation from './components/navigation'
-import Project from './components/sections/project'
+import Project from './sections/project'
 import React from 'react'
-import Skills from './components/sections/skills'
+import Skills from './sections/skills'
 import { useEffect } from 'react'
 
 const App = () => {

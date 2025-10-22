@@ -1,9 +1,10 @@
-import '../../assets/style/contact.css'
+import '../assets/style/contact.css'
 import 'aos/dist/aos.css'
 
 import React, { useEffect, useState } from 'react'
 
 import Aos from 'aos'
+import ContactForm from '../components/form'
 
 const Contact = () => {
 
@@ -27,8 +28,10 @@ const Contact = () => {
 
         {toggleForm &&
           <div className='email-modal' id='email-modal'>
-          <div className="email-content" id='email-content'>
-            <form action="https://formsubmit.co/125b9c4918a98903f77d15d4dc08b02f" method='post'>
+            <div className="email-content" id='email-content'>
+              <button onClick={Toggle}>X</button>
+              <ContactForm/>
+            {/* <form action="https://formsubmit.co/125b9c4918a98903f77d15d4dc08b02f" method='post'>
               <table>
                 <tr>
                   <td><label htmlFor="name">Name</label></td>
@@ -55,7 +58,7 @@ const Contact = () => {
                 </tr>
               </table>
 
-            </form>
+            </form> */}
           </div>
         </div>
         }

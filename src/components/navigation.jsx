@@ -24,9 +24,9 @@ const Navigation = () => {
                           <img src={emf} alt="img" width={50} height={50} />
                         </HashLink>
                     </div>
-                    <div className="my-number">
+                    {/* <div className="my-number">
                         <p>&#128222; +2347034534697</p>
-                    </div>
+                    </div> */}
                     <div className="hamburger" onClick={handleClick}>
                         {click ? (<FaTimes size={25} style={{ color: '#fff' }} />) :
                             (<FaBars size={25} style={ {color:'#fff'}} />)

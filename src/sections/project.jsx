@@ -1,4 +1,4 @@
-import '../../assets/style/project.css'
+import '../assets/style/project.css'
 import "aos/dist/aos.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "slick-carousel/slick/slick.css";
@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaGithubSquare, FaLink } from 'react-icons/fa'
 
 import Aos from 'aos'
-import { Img } from '../img';
+import { Img } from '../components/img';
 import React from 'react'
 import Slider from "react-slick";
 import {projectsData} from "../data"

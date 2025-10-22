@@ -1,13 +1,13 @@
-import '../../assets/style/about.css'
+import '../assets/style/about.css'
 import "aos/dist/aos.css"
 
 import React, {useState} from 'react'
 
 import Aos from 'aos'
-import { Img } from '../img'
+import { Img } from '../components/img'
 import { TypeAnimation } from 'react-type-animation'
-import cv from '../../assets/images/Emmanuel Mkpurunchi CV.pdf'
-import emf from "../../assets/images/Emma's pix.jpg"
+import cv from '../assets/images/Emmanuel Mkpurunchi CV.pdf'
+import emf from "../assets/images/Emma's pix.jpg"
 import { useEffect } from 'react'
 
 const About = () => {

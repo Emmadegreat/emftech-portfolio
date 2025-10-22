@@ -1,4 +1,4 @@
-import '../../assets/style/skills.css'
+import '../assets/style/skills.css'
 import "aos/dist/aos.css"
 
 import React, {useEffect} from 'react'
