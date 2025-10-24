@@ -72,7 +72,7 @@
     width: 100%;
     height: 100%;
     max-width: 570px;
-    max-height: 350px;
+    /* max-height: 420px; */
     top: 50%;
     left: 50%;
     border-radius: 2rem;
@@ -85,7 +85,7 @@
     top: 50%;
     left: 50%;
     max-width: 550px;
-    max-height: 340px;
+    max-height: 500px;
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
@@ -93,33 +93,10 @@
     background: #d4d8dd;
     position: absolute;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     padding: 1.2rem 1.6rem;
 }
 
-input, textarea{
-    margin: 0.2rem 1rem;
-    padding: 0.3rem;
-    max-width: 250px;
-    width: 100%;
-    font-size: 1.1rem;
-    border-radius: 0.3rem;
-}
-#submit{
-    background-color: #222831;
-    color: #d4d8dd;
-    border-width: 0rem;
-    cursor: pointer;
-    border-radius: 0.3rem;
-}
-submit:hover{
-    background-color: rgb(119, 178, 220);
-    color: rgb(41 39 39);
-    border-width: 0rem;
-    cursor: pointer;
-    border-radius: 0.3rem;
-}
 
 @media screen and (max-width:600px){
     .email-modal{
@@ -132,12 +109,5 @@ submit:hover{
         width: 100%;
         height: 100%;
         padding: 1.1rem 1.4rem;
-    }
-
-    input, textarea{
-        margin: 0.2rem 0.6rem;
-        padding: 0.3rem;
-        max-width: 240px;
-        width: 100%;
     }
 }

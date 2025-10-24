@@ -23,14 +23,17 @@ const Contact = () => {
         <div className="contact-card" id="contact-card">
           <p>Have a project you want </p>
           <p>me to bring to live?</p>
-          <button className='contact-button' onClick={Toggle}>send me a mail &#8663;</button>
+          <button className='contact-button bg-white text-[#000]' onClick={Toggle}>send me a mail &#8663;</button>
         </div>
 
         {toggleForm &&
-          <div className='email-modal' id='email-modal'>
+          <div className='email-modal max-h-[400px]' id='email-modal'>
             <div className="email-content" id='email-content'>
-              <button onClick={Toggle}>X</button>
-              <ContactForm/>
+              <div className='flex justify-end'>
+                <button onClick={Toggle} className='px-2 py-[0.5px] mb-2 outline-ring rounded-md border-[1px] border-blue-500 text-red-600 text-[24px] font-semibold text-end'>X</button>
+              </div>
+
+            <ContactForm />
             {/* <form action="https://formsubmit.co/125b9c4918a98903f77d15d4dc08b02f" method='post'>
               <table>
                 <tr>

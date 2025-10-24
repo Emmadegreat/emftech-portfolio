@@ -43,7 +43,7 @@ const Project = () => {
 
   return (
     <section className='project' id='project'>
-      <h1>
+      <h1 className='font-semibold'>
         My Projects <span>.</span>
       </h1>
       <div className='slider-wrapper'>

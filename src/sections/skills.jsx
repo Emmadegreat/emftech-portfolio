@@ -15,7 +15,7 @@ const Skills = () => {
       <>
         <section className="skill" data-aos="zoom-out" id="skill">{/*=zoom-out=*/}
           <div className='skill-header'>
-            <h2>My Skills </h2>
+            <h2 className='font-semibold'>My Skills </h2>
             <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1719525381/general/dot-removebg-preview_wo9xco.png" alt="" />
           </div>
           <div className="skill-wrapper">

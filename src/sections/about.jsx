@@ -25,7 +25,7 @@ const About = () => {
     <>
       <section className="about" id='about'>
 
-        <div className='namedisplay'>
+        <div className='namedisplay text-[2.5rem] text-center my-[1.2rem] mx-0 font-semibold'>
           <TypeAnimation
             sequence={['Hi,', 1000, 'I am', 1000, 'Emmanuel Mkpurunchi', 1000, 'Web Developer', 1000,]}
 
@@ -53,8 +53,8 @@ const About = () => {
         />*/}
 
 
-        <div className="about-container">
-          <div className="about-box" id='name'>
+        <section className="about-container">
+          <aside className="about-box" id='name'>
 
             <p>
               I am a self motivated web developer and tech enthusiast, with expertise in
@@ -71,18 +71,18 @@ const About = () => {
               With my experience in web development, I have been able to carry out the following projects
               which can be seen in the project section of this site.
             </p>
-            <button className='hire-button' id='hire-button'><a href={cv} target="_blank" rel="noreferrer">View CV &#8663;</a> </button>
+            <button className='hire-button bg-[#fff]' id='hire-button'><a href={cv} target="_blank" rel="noreferrer">View CV &#8663;</a> </button>
             {/*<button className='hire-button' id='hire-button'><a href="https://wa.me/23407034534697" target="_blank" rel="noreferrer">Hire me &#8663;</a> </button>*/}
-          </div>
+          </aside>
 
-          <div className="about-box" id='pix-box'>
+          <aside className="about-box" id='pix-box'>
             <Img
               src={emf}
               alt="profile"
               className="profile-pix"
             />
 
-          </div>
+          </aside>
 
           {/*click &&
             <div className='hire-me-modal' id='hire-me-modal'>
@@ -92,7 +92,7 @@ const About = () => {
               </div>
           </div>
           */}
-        </div>
+        </section>
         <div>
 
         </div>

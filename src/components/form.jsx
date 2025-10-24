@@ -41,7 +41,7 @@ const ContactForm = () => {
     if (submitted) {
         return (
         <>
-            <div className="text-2xl">Thank you for contacting us, we'll be in touch soon.</div>
+            <div className="text-[16px] text-center flex items-center justify-center">Thank you for contacting us, we'll be in touch soon.</div>
         </>
     );
     }
@@ -51,6 +51,7 @@ const ContactForm = () => {
         action={FORM_ENDPOINT}
         onSubmit={handleSubmit}
         method="POST"
+        className=""
     >
         <div className="pt-0 mb-3">
             <input
@@ -83,13 +84,14 @@ const ContactForm = () => {
             <textarea
                 placeholder="Your message"
                 name="message"
-                className="focus:outline-none focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+                className="w-full focus:outline-none focus:ring relative px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
                 required
             />
         </div>
-        <div className="pt-0 mb-3">
+        <div className="pt-0 mb-2">
             <button
-                className="active:bg-blue-600 hover:shadow-lg focus:outline-none px-6 py-3 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 rounded shadow outline-none"
+                    className="hover:bg-gray-600 focus:outline-none px-2 py-2 h-[42px] mb-1 text-[18px] text-white
+                transition-all duration-150 ease-linear bg-[#222831] rounded shadow outline-none w-full"
                 type="submit"
             >
                 Send mail

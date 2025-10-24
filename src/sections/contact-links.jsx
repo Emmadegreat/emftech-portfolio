@@ -5,14 +5,15 @@ import { FaFacebookSquare, FaGithubSquare, FaLinkedinIn, FaTwitterSquare } from 
 import {BrowserRouter} from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import React from 'react'
-import logo from '../assets/images/mylogo (1).png'
+
+//import logo from '../bootstrap.png'
 
 const ContactLinks = () => {
     return(
         <>
             <section className='contact-links' id='contact-links'>
                 <div className="logo-1">
-                    <img src={logo} alt="logo" />
+                    {/* <img src={logo} alt="logo" /> */}
                 </div>
                 <div className="footer-links">
                     <ul className='social-links'>

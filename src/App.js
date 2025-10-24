@@ -25,7 +25,7 @@ const App = () => {
 
       />
 
-      <div className='pages'>
+      <main className='pages'>
 
         <About />
 
@@ -34,7 +34,7 @@ const App = () => {
         <Contact />
         <ContactLinks />
 
-      </div>
+      </main>
       <Footer
         text="&copy; All Rights Reserved &nbsp;EMF &nbsp;"
         year={ new Date().getFullYear()}
