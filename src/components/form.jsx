@@ -82,7 +82,7 @@ const ContactForm = () => {
         </div>
         <div className="pt-0 mb-3">
             <textarea
-                placeholder="Your message"
+                placeholder="Your Message"
                 name="message"
                 className="w-full focus:outline-none focus:ring relative px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
                 required
